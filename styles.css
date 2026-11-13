@@ -68,3 +68,18 @@ a{color:var(--acc)}
 .nf-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
 .nf{flex:0 0 220px;text-align:left;font:inherit;background:#f8fafc;border:1px solid var(--line);border-left:4px solid var(--top);border-radius:8px;padding:8px 10px;cursor:pointer;display:flex;flex-direction:column;gap:2px}
 .nf:hover{border-color:var(--acc)}.nf b{font-size:13px}.nf span{font-size:12px;color:var(--mute)}.nf .nf-r{font-weight:700;color:var(--ink)}
+
+.elite{background:#fff;border-bottom:1px solid var(--line);padding:12px 16px}
+.el-h{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px}.el-h strong{font-size:15px}.el-h span{font-size:12px;color:var(--mute)}
+.el-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table.el{border-collapse:collapse;width:100%;font-size:12px;min-width:1180px}
+.el th{position:sticky;top:0;background:#f4f6f9;text-align:left;font-weight:600;padding:7px 8px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;user-select:none}
+.el th.on{color:var(--acc)}
+.el td{padding:7px 8px;border-bottom:1px solid #eef1f4;vertical-align:top}
+.el tr[data-vin]{cursor:pointer}.el tr[data-vin]:hover td{background:#f8fbff}
+.el td.c-price,.el td.c-otd,.el td.c-miles,.el td.c-year,.el td.c-mpg,.el td.c-yr,.el td.c-three,.el td.c-tires,.el td.c-drive,.el td.c-rank{white-space:nowrap;font-variant-numeric:tabular-nums}
+.el td.c-car{min-width:170px}.el td.c-risk,.el td.c-insp{min-width:200px;color:#38414c}
+.el .mute{color:var(--mute);font-size:11px}
+.el-n{margin-top:8px;font-size:12px;color:#38414c;line-height:1.5}
+.el td.c-car,.el th[data-k=car]{position:sticky;left:0;z-index:1;background:#fff;box-shadow:1px 0 0 var(--line)}
+.el th[data-k=car]{background:#f4f6f9;z-index:2}

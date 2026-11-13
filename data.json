@@ -5,6 +5,48 @@
   "label": "Fremont city center"
  },
  "read": "2026-11-13",
+ "elite": [
+  {
+   "vin": "4T1BF3EK5BU744557",
+   "risk": "Private sale: no warranty or dealer recourse; three 1-owner private listings in Hayward may be one seller",
+   "inspect": "PPI with OBD scan; title in seller name; seller must supply a smog certificate"
+  },
+  {
+   "vin": "JHMGE8H5XBC001378",
+   "risk": "Private sale, 15-year-old 5-speed automatic",
+   "inspect": "PPI; transmission fluid condition and shift quality; A/C output; smog certificate from seller"
+  },
+  {
+   "vin": "2T1BR32E27C787039",
+   "risk": "Age over mileage: 19 years old with 67k, so rubber, hoses and seals matter more than miles",
+   "inspect": "PPI; hoses, belts, mounts, tire date codes, battery; look for oil seepage"
+  },
+  {
+   "vin": "JHMGE8H67CC033411",
+   "risk": "130k on a 5-speed automatic with lifetime-fill habits",
+   "inspect": "PPI; transmission fluid and shifts; suspension bushings; A/C"
+  },
+  {
+   "vin": "2HGFB2F51DH519581",
+   "risk": "131k miles; normal wear items due",
+   "inspect": "PPI; brakes, suspension, A/C; ask for oil-change records"
+  },
+  {
+   "vin": "2T3BF4DV2AW049069",
+   "risk": "4WD system at 121k: more parts to wear than the FWD cars",
+   "inspect": "PPI; rear coupling and transfer fluid; listen for clunks over bumps; CV boots"
+  },
+  {
+   "vin": "1HGCM56707A197258",
+   "risk": "19-year-old Honda 5-speed automatic",
+   "inspect": "PPI; cold start for timing-chain rattle; transmission fluid and shifts; power-steering leaks"
+  },
+  {
+   "vin": "1NXBR12E52Z627183",
+   "risk": "24 years old; 1ZZ-FE oil use on older Corollas",
+   "inspect": "PPI; oil level and consumption, hoses, mounts"
+  }
+ ],
  "cars": [
   {
    "rank": 1,
@@ -56,7 +98,9 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": "Private seller: pinned at city center, exact location unknown"
+   "locNote": "Private seller: pinned at city center, exact location unknown",
+   "color": null,
+   "otd": 11034
   },
   {
    "rank": 2,
@@ -108,7 +152,9 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": "Private seller: pinned at city center, exact location unknown"
+   "locNote": "Private seller: pinned at city center, exact location unknown",
+   "color": null,
+   "otd": 10166
   },
   {
    "rank": 3,
@@ -160,7 +206,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 9337
   },
   {
    "rank": 4,
@@ -212,7 +260,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10324
   },
   {
    "rank": 5,
@@ -264,62 +314,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 11365
   },
   {
    "rank": 6,
-   "tier": "Top pick",
-   "score": 97,
-   "vin": "2T1KU40E49C077408",
-   "title": "2009 Toyota Matrix",
-   "year": 2009,
-   "price": 7777,
-   "miles": 137495,
-   "trans": "Auto",
-   "owners": "1",
-   "damage": "None",
-   "service": null,
-   "seller": "Private",
-   "dealer": "Private seller",
-   "address": "Hayward, CA",
-   "city": "Hayward",
-   "phone": "",
-   "use": "Personal",
-   "body": "Hatchback",
-   "drive": "4x2",
-   "lat": 37.6688205,
-   "lng": -122.080796,
-   "driveMin": 19,
-   "driveMi": 13.0,
-   "img": null,
-   "photo": null,
-   "url": "https://www.carfax.com/vehicle/2T1KU40E49C077408",
-   "why": "Automatic, 1 owner, no damage, 28 mpg, about $3,469/yr to run, close by. 1.8L engine, so the 2AZ oil-consumption program does not apply; private seller.",
-   "tire": {
-    "size": "205/55R16",
-    "lo": 315,
-    "hi": 720,
-    "install": 196
-   },
-   "cost": {
-    "fuel_yr": 2007,
-    "insurance_yr": 729,
-    "tires_yr": 85,
-    "maint_yr": 396,
-    "reg_yr": 252,
-    "total_yr": 3469,
-    "upfront_cash": 9041,
-    "first_year_cash": 12283,
-    "three_year_total": 19221,
-    "mpg": 28,
-    "grade": "regular"
-   },
-   "source": "Search: 100 mi",
-   "deal": null,
-   "locNote": "Private seller: pinned at city center, exact location unknown"
-  },
-  {
-   "rank": 7,
    "tier": "Top pick",
    "score": 97,
    "vin": "2T3BF4DV2AW049069",
@@ -368,10 +368,12 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10251
   },
   {
-   "rank": 8,
+   "rank": 7,
    "tier": "Top pick",
    "score": 97,
    "vin": "1HGCM56707A197258",
@@ -420,62 +422,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10251
   },
   {
-   "rank": 9,
-   "tier": "Top pick",
-   "score": 96,
-   "vin": "JTEGH20V010001516",
-   "title": "2001 Toyota RAV4",
-   "year": 2001,
-   "price": 5535,
-   "miles": 103464,
-   "trans": "Auto",
-   "owners": "1",
-   "damage": "None",
-   "service": null,
-   "seller": "Dealer",
-   "dealer": "The Dealer",
-   "address": "36835 Fremont Blvd, Fremont, CA 94536",
-   "city": "Fremont",
-   "phone": "",
-   "use": "Personal",
-   "body": "SUV/Crossover",
-   "drive": "4x2",
-   "lat": 37.5615724,
-   "lng": -122.0139081,
-   "driveMin": 5,
-   "driveMi": 2.0,
-   "img": null,
-   "photo": null,
-   "url": "https://www.carfax.com/vehicle/JTEGH20V010001516",
-   "why": "Automatic, 1 owner, no damage, 23 mpg, about $3,852/yr to run, close by. 25 years old: rubber, seals and mounts are aging.",
-   "tire": {
-    "size": "215/70R16",
-    "lo": 418,
-    "hi": 860,
-    "install": 196
-   },
-   "cost": {
-    "fuel_yr": 2443,
-    "insurance_yr": 665,
-    "tires_yr": 77,
-    "maint_yr": 429,
-    "reg_yr": 237,
-    "total_yr": 3852,
-    "upfront_cash": 6639,
-    "first_year_cash": 10279,
-    "three_year_total": 17982,
-    "mpg": 23,
-    "grade": "regular"
-   },
-   "source": "Search: 100 mi",
-   "deal": "Great",
-   "locNote": ""
-  },
-  {
-   "rank": 10,
+   "rank": 8,
    "tier": "Top pick",
    "score": 96,
    "vin": "1NXBR12E52Z627183",
@@ -524,10 +476,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6929
   },
   {
-   "rank": 11,
+   "rank": 9,
    "tier": "Top pick",
    "score": 95,
    "vin": "JM1CR29L870140531",
@@ -576,10 +530,66 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": "Private seller: pinned at city center, exact location unknown"
+   "locNote": "Private seller: pinned at city center, exact location unknown",
+   "color": null,
+   "otd": 8328
   },
   {
-   "rank": 12,
+   "rank": 10,
+   "tier": "Top pick",
+   "score": 95,
+   "vin": "2T1KU40E49C077408",
+   "title": "2009 Toyota Matrix",
+   "year": 2009,
+   "price": 7777,
+   "miles": 137495,
+   "trans": "Auto",
+   "owners": "1",
+   "damage": "None",
+   "service": null,
+   "seller": "Private",
+   "dealer": "Private seller",
+   "address": "Hayward, CA",
+   "city": "Hayward",
+   "phone": "",
+   "use": "Personal",
+   "body": "Hatchback",
+   "drive": "4x2",
+   "lat": 37.6688205,
+   "lng": -122.080796,
+   "driveMin": 19,
+   "driveMi": 13.0,
+   "img": null,
+   "photo": null,
+   "url": "https://www.carfax.com/vehicle/2T1KU40E49C077408",
+   "why": "Automatic, 1 owner, no damage, 28 mpg, about $3,469/yr to run, close by. 1.8L 2ZR engine, so the 2AZ oil-consumption program does not apply, but it is covered by Toyota water-pump bulletin T-SB-0362-09; private seller.",
+   "tire": {
+    "size": "205/55R16",
+    "lo": 315,
+    "hi": 720,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2007,
+    "insurance_yr": 729,
+    "tires_yr": 85,
+    "maint_yr": 396,
+    "reg_yr": 252,
+    "total_yr": 3469,
+    "upfront_cash": 9041,
+    "first_year_cash": 12283,
+    "three_year_total": 19221,
+    "mpg": 28,
+    "grade": "regular"
+   },
+   "source": "Search: 100 mi",
+   "deal": null,
+   "locNote": "Private seller: pinned at city center, exact location unknown",
+   "color": null,
+   "otd": 8816
+  },
+  {
+   "rank": 11,
    "tier": "Top pick",
    "score": 95,
    "vin": "JTMZF33V595013860",
@@ -628,10 +638,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10318
   },
   {
-   "rank": 13,
+   "rank": 12,
    "tier": "Top pick",
    "score": 92,
    "vin": "JTDKB20U177674239",
@@ -680,10 +692,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8013
   },
   {
-   "rank": 14,
+   "rank": 13,
    "tier": "Top pick",
    "score": 86,
    "vin": "1HGCP26459A049864",
@@ -732,10 +746,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6924
   },
   {
-   "rank": 15,
+   "rank": 14,
    "tier": "Top pick",
    "score": 81,
    "vin": "JT2BG22K110581033",
@@ -784,10 +800,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 5677
   },
   {
-   "rank": 16,
+   "rank": 15,
    "tier": "Top pick",
    "score": 80,
    "vin": "JF2SH6BC2AH805496",
@@ -836,10 +854,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8499
   },
   {
-   "rank": 17,
+   "rank": 16,
    "tier": "Worth a look",
    "score": 79,
    "vin": "JHMGE88469S035003",
@@ -888,10 +908,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Fair",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8565
   },
   {
-   "rank": 18,
+   "rank": 17,
    "tier": "Worth a look",
    "score": 79,
    "vin": "3MZBM1J7XGM241065",
@@ -940,10 +962,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 11255
   },
   {
-   "rank": 19,
+   "rank": 18,
    "tier": "Worth a look",
    "score": 79,
    "vin": "JM1CW2BL3C0117610",
@@ -992,7 +1016,63 @@
    },
    "source": "Search: 100 mi",
    "deal": "Fair",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8161
+  },
+  {
+   "rank": 19,
+   "tier": "Worth a look",
+   "score": 78,
+   "vin": "JTEGH20V010001516",
+   "title": "2001 Toyota RAV4",
+   "year": 2001,
+   "price": 5535,
+   "miles": 103464,
+   "trans": "Auto",
+   "owners": "1",
+   "damage": "None",
+   "service": null,
+   "seller": "Dealer",
+   "dealer": "The Dealer",
+   "address": "36835 Fremont Blvd, Fremont, CA 94536",
+   "city": "Fremont",
+   "phone": "",
+   "use": "Personal",
+   "body": "SUV/Crossover",
+   "drive": "4x2",
+   "lat": 37.5615724,
+   "lng": -122.0139081,
+   "driveMin": 5,
+   "driveMi": 2.0,
+   "img": null,
+   "photo": null,
+   "url": "https://www.carfax.com/vehicle/JTEGH20V010001516",
+   "why": "Automatic, 1 owner, no damage, 23 mpg, about $3,852/yr to run, close by. 25 years old: rubber, seals and mounts are aging, and early 1AZ-FE engines (2001-03 RAV4) can pull head-bolt threads and fail the head gasket.",
+   "tire": {
+    "size": "215/70R16",
+    "lo": 418,
+    "hi": 860,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2443,
+    "insurance_yr": 665,
+    "tires_yr": 77,
+    "maint_yr": 429,
+    "reg_yr": 237,
+    "total_yr": 3852,
+    "upfront_cash": 6639,
+    "first_year_cash": 10279,
+    "three_year_total": 17982,
+    "mpg": 23,
+    "grade": "regular"
+   },
+   "source": "Search: 100 mi",
+   "deal": "Great",
+   "locNote": "",
+   "color": null,
+   "otd": 6414
   },
   {
    "rank": 20,
@@ -1044,7 +1124,9 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7928
   },
   {
    "rank": 21,
@@ -1096,7 +1178,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10350
   },
   {
    "rank": 22,
@@ -1148,7 +1232,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Fair",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 11365
   },
   {
    "rank": 23,
@@ -1200,7 +1286,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 11365
   },
   {
    "rank": 24,
@@ -1252,7 +1340,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 11344
   },
   {
    "rank": 25,
@@ -1304,7 +1394,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8292
   },
   {
    "rank": 26,
@@ -1356,7 +1448,9 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 11002
   },
   {
    "rank": 27,
@@ -1408,7 +1502,9 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8537
   },
   {
    "rank": 28,
@@ -1460,7 +1556,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 9701
   },
   {
    "rank": 29,
@@ -1512,7 +1610,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8038
   },
   {
    "rank": 30,
@@ -1564,7 +1664,9 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8033
   },
   {
    "rank": 31,
@@ -1616,10 +1718,66 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 5782
   },
   {
    "rank": 32,
+   "tier": "Worth a look",
+   "score": 76,
+   "vin": "WMWXU1C59H2E18444",
+   "title": "2017 Mini Cooper Hardtop 4 Door",
+   "year": 2017,
+   "price": 9900,
+   "miles": 102107,
+   "trans": "Auto",
+   "owners": "1",
+   "damage": "None",
+   "service": null,
+   "seller": "Dealer",
+   "dealer": "Meritage Automotive Center",
+   "address": "1145 Lincoln Way, Auburn, CA 95603",
+   "city": "Auburn",
+   "phone": "(530) 878-5655",
+   "use": "Personal",
+   "body": "Hatchback",
+   "drive": "FWD",
+   "lat": 38.8980396,
+   "lng": -121.0731051,
+   "driveMin": 163,
+   "driveMi": 136.9,
+   "img": "img/WMWXU1C59H2E18444.jpg",
+   "photo": "https://photos.autocorner.com/640x480/A6fGygFrx5HyNOJv2ntTInt4fUqfvZmUuoBZQtuwpahGCsGUbgRMjKJdbf7WFu8c.jpg",
+   "url": "https://www.carfax.com/vehicle/WMWXU1C59H2E18444",
+   "why": "Automatic, 1 owner, no damage, 30 mpg, about $3,961/yr to run, a long drive (2 h 43 min). B38 3-cylinder with the Aisin 6-speed automatic, not the N14/N18 engines behind the other Mini passes; J.D. Power rates it average (79/100), Consumer Reports below average. Watch engine mounts, valve-cover and thermostat-housing leaks; needs premium fuel. Electric Blue II with a white roof, 15in wheels with a spare (not run-flats).",
+   "tire": {
+    "size": "175/65R15",
+    "lo": 328,
+    "hi": 776,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2033,
+    "insurance_yr": 729,
+    "tires_yr": 87,
+    "maint_yr": 846,
+    "reg_yr": 265,
+    "total_yr": 3961,
+    "upfront_cash": 11480,
+    "first_year_cash": 15201,
+    "three_year_total": 23123,
+    "mpg": 30,
+    "grade": "premium"
+   },
+   "source": "Search: 200 mi",
+   "deal": "Good Value",
+   "locNote": "",
+   "color": "Electric Blue II Metallic, white roof; Carbon Black leatherette",
+   "otd": 11255
+  },
+  {
+   "rank": 33,
    "tier": "Worth a look",
    "score": 75,
    "vin": "JTDKN3DU5D1624952",
@@ -1668,10 +1826,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": "Private seller: pinned at city center, exact location unknown"
+   "locNote": "Private seller: pinned at city center, exact location unknown",
+   "color": null,
+   "otd": 10756
   },
   {
-   "rank": 33,
+   "rank": 34,
    "tier": "Worth a look",
    "score": 75,
    "vin": "5J6RE4H79AL047152",
@@ -1720,10 +1880,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 9233
   },
   {
-   "rank": 34,
+   "rank": 35,
    "tier": "Worth a look",
    "score": 75,
    "vin": "1NXBR32E05Z368036",
@@ -1772,10 +1934,12 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6929
   },
   {
-   "rank": 35,
+   "rank": 36,
    "tier": "Worth a look",
    "score": 74,
    "vin": "JF1SG67635H705973",
@@ -1824,10 +1988,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 5733
   },
   {
-   "rank": 36,
+   "rank": 37,
    "tier": "Worth a look",
    "score": 71,
    "vin": "JF1SF63522H750916",
@@ -1876,10 +2042,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6997
   },
   {
-   "rank": 37,
+   "rank": 38,
    "tier": "Worth a look",
    "score": 67,
    "vin": "JM1CW2BL0C0124529",
@@ -1928,10 +2096,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7154
   },
   {
-   "rank": 38,
+   "rank": 39,
    "tier": "Worth a look",
    "score": 63,
    "vin": "JM1BL1V75C1558209",
@@ -1980,10 +2150,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7928
   },
   {
-   "rank": 39,
+   "rank": 40,
    "tier": "Worth a look",
    "score": 62,
    "vin": "JM1BL1H61A1254133",
@@ -2032,10 +2204,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7960
   },
   {
-   "rank": 40,
+   "rank": 41,
    "tier": "Worth a look",
    "score": 60,
    "vin": "JM1BL1S68A1196854",
@@ -2084,10 +2258,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7834
   },
   {
-   "rank": 41,
+   "rank": 42,
    "tier": "Pass",
    "score": 59,
    "vin": "1GCDM19X73B135769",
@@ -2136,10 +2312,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7579
   },
   {
-   "rank": 42,
+   "rank": 43,
    "tier": "Pass",
    "score": 58,
    "vin": "4S4BRBAC4E3219094",
@@ -2188,10 +2366,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 9770
   },
   {
-   "rank": 43,
+   "rank": 44,
    "tier": "Pass",
    "score": 57,
    "vin": "JF2SJAHC6EH528209",
@@ -2240,10 +2420,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10256
   },
   {
-   "rank": 44,
+   "rank": 45,
    "tier": "Pass",
    "score": 57,
    "vin": "4S4BRBKC6B3392285",
@@ -2292,10 +2474,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Fair",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7484
   },
   {
-   "rank": 45,
+   "rank": 46,
    "tier": "Pass",
    "score": 56,
    "vin": "4S4BP62C157348642",
@@ -2344,10 +2528,12 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10251
   },
   {
-   "rank": 46,
+   "rank": 47,
    "tier": "Pass",
    "score": 56,
    "vin": "JTDKN3DU5D5561540",
@@ -2396,10 +2582,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 9697
   },
   {
-   "rank": 47,
+   "rank": 48,
    "tier": "Pass",
    "score": 55,
    "vin": "JTDKN3DU6B0268143",
@@ -2448,10 +2636,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 9844
   },
   {
-   "rank": 48,
+   "rank": 49,
    "tier": "Pass",
    "score": 55,
    "vin": "JF2SJADC3FH824828",
@@ -2500,10 +2690,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7294
   },
   {
-   "rank": 49,
+   "rank": 50,
    "tier": "Pass",
    "score": 55,
    "vin": "JTDKN3DU0A0097789",
@@ -2552,10 +2744,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10810
   },
   {
-   "rank": 50,
+   "rank": 51,
    "tier": "Pass",
    "score": 55,
    "vin": "JF2SJAJC7JH597608",
@@ -2604,10 +2798,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10240
   },
   {
-   "rank": 51,
+   "rank": 52,
    "tier": "Pass",
    "score": 54,
    "vin": "JTDKN3DU0A1004585",
@@ -2656,10 +2852,12 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8038
   },
   {
-   "rank": 52,
+   "rank": 53,
    "tier": "Pass",
    "score": 54,
    "vin": "1HGCM66503A057452",
@@ -2708,10 +2906,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Fair",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8100
   },
   {
-   "rank": 53,
+   "rank": 54,
    "tier": "Pass",
    "score": 54,
    "vin": "4T1BB46K19U087346",
@@ -2760,10 +2960,12 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10806
   },
   {
-   "rank": 54,
+   "rank": 55,
    "tier": "Pass",
    "score": 54,
    "vin": "4S4BP61C977321225",
@@ -2812,10 +3014,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 5865
   },
   {
-   "rank": 55,
+   "rank": 56,
    "tier": "Pass",
    "score": 54,
    "vin": "4T1BB46K98U046879",
@@ -2864,10 +3068,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 10917
   },
   {
-   "rank": 56,
+   "rank": 57,
    "tier": "Pass",
    "score": 53,
    "vin": "1HGCG16531A018720",
@@ -2916,10 +3122,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Good",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 9147
   },
   {
-   "rank": 57,
+   "rank": 58,
    "tier": "Pass",
    "score": 52,
    "vin": "JF2SJGPC2EH452914",
@@ -2968,10 +3176,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 11141
   },
   {
-   "rank": 58,
+   "rank": 59,
    "tier": "Pass",
    "score": 51,
    "vin": "1YVFP80C435M20845",
@@ -3020,10 +3230,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 5889
   },
   {
-   "rank": 59,
+   "rank": 60,
    "tier": "Pass",
    "score": 47,
    "vin": "1HGCG3276WA008130",
@@ -3072,10 +3284,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 3515
   },
   {
-   "rank": 60,
+   "rank": 61,
    "tier": "Pass",
    "score": 46,
    "vin": "WMWRC33526TJ78665",
@@ -3124,10 +3338,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8161
   },
   {
-   "rank": 61,
+   "rank": 62,
    "tier": "Pass",
    "score": 45,
    "vin": "1FM5K8AR4FGB61765",
@@ -3176,10 +3392,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8107
   },
   {
-   "rank": 62,
+   "rank": 63,
    "tier": "Pass",
    "score": 44,
    "vin": "4T1BF3EK7BU626686",
@@ -3228,10 +3446,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Fair",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8060
   },
   {
-   "rank": 63,
+   "rank": 64,
    "tier": "Pass",
    "score": 43,
    "vin": "19XFB2F5XDE288982",
@@ -3280,10 +3500,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6026
   },
   {
-   "rank": 64,
+   "rank": 65,
    "tier": "Pass",
    "score": 43,
    "vin": "1NXBR32E98Z036200",
@@ -3332,10 +3554,12 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7727
   },
   {
-   "rank": 65,
+   "rank": 66,
    "tier": "Pass",
    "score": 43,
    "vin": "JM1BL1WP2D1733368",
@@ -3367,10 +3591,12 @@
    "cost": null,
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": null
   },
   {
-   "rank": 66,
+   "rank": 67,
    "tier": "Pass",
    "score": 42,
    "vin": "WMWZC5C56CWL60813",
@@ -3419,10 +3645,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6020
   },
   {
-   "rank": 67,
+   "rank": 68,
    "tier": "Pass",
    "score": 41,
    "vin": "4JGCB65E87A045525",
@@ -3471,10 +3699,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7152
   },
   {
-   "rank": 68,
+   "rank": 69,
    "tier": "Pass",
    "score": 41,
    "vin": "WMWZC5C51CWM12509",
@@ -3523,10 +3753,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7018
   },
   {
-   "rank": 69,
+   "rank": 70,
    "tier": "Pass",
    "score": 39,
    "vin": "JM1BK343251238412",
@@ -3558,10 +3790,12 @@
    "cost": null,
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": null
   },
   {
-   "rank": 70,
+   "rank": 71,
    "tier": "Pass",
    "score": 39,
    "vin": "4S4BSETCXH3319997",
@@ -3610,10 +3844,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8026
   },
   {
-   "rank": 71,
+   "rank": 72,
    "tier": "Pass",
    "score": 38,
    "vin": "4T1BE46K69U370106",
@@ -3645,10 +3881,12 @@
    "cost": null,
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": null
   },
   {
-   "rank": 72,
+   "rank": 73,
    "tier": "Pass",
    "score": 35,
    "vin": "WBAVB17596NK33231",
@@ -3697,10 +3935,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8107
   },
   {
-   "rank": 73,
+   "rank": 74,
    "tier": "Pass",
    "score": 34,
    "vin": "JHMCM56664C026924",
@@ -3749,10 +3989,12 @@
    },
    "source": "Search: 100 mi",
    "deal": "Great",
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 4750
   },
   {
-   "rank": 74,
+   "rank": 75,
    "tier": "Pass",
    "score": 32,
    "vin": "WDBJF65J91B320509",
@@ -3801,10 +4043,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6924
   },
   {
-   "rank": 75,
+   "rank": 76,
    "tier": "Pass",
    "score": 29,
    "vin": "WMWSS5C53EWN67246",
@@ -3853,10 +4097,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8038
   },
   {
-   "rank": 76,
+   "rank": 77,
    "tier": "Pass",
    "score": 28,
    "vin": "2FAHP71VX9X126923",
@@ -3905,10 +4151,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7690
   },
   {
-   "rank": 77,
+   "rank": 78,
    "tier": "Pass",
    "score": 22,
    "vin": "WMWSS5C52DWN66510",
@@ -3957,10 +4205,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 8571
   },
   {
-   "rank": 78,
+   "rank": 79,
    "tier": "Pass",
    "score": 20,
    "vin": "WMWZC3C5XDWP21188",
@@ -4009,10 +4259,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 6929
   },
   {
-   "rank": 79,
+   "rank": 80,
    "tier": "Pass",
    "score": 18,
    "vin": "WMWWG5C31H3C20380",
@@ -4044,10 +4296,12 @@
    "cost": null,
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": null
   },
   {
-   "rank": 80,
+   "rank": 81,
    "tier": "Pass",
    "score": 16,
    "vin": "WDBWK54FX6F094943",
@@ -4096,10 +4350,12 @@
    },
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": 7940
   },
   {
-   "rank": 81,
+   "rank": 82,
    "tier": "Pass",
    "score": 10,
    "vin": "WMWMF735X7TL86786",
@@ -4131,7 +4387,9 @@
    "cost": null,
    "source": "Followed",
    "deal": null,
-   "locNote": ""
+   "locNote": "",
+   "color": null,
+   "otd": null
   }
  ]
 }
