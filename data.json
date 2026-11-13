@@ -34,7 +34,26 @@
    "img": "img/1NXBR12E52Z627183.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-5306079269970205281/1/640x480",
    "url": "https://www.carfax.com/vehicle/1NXBR12E52Z627183",
-   "why": "Automatic, 1 owner, no damage, lowest miles of the sensible picks (76.8k). Early 1ZZ-FE engines can burn oil: check the dipstick and exhaust."
+   "why": "Automatic, 1 owner, no damage, lowest miles of the sensible picks (76.8k). Early 1ZZ-FE engines can burn oil: check the dipstick and exhaust.",
+   "tire": {
+    "size": "185/65R14",
+    "lo": 258,
+    "hi": 446,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 1873,
+    "insurance_yr": 729,
+    "tires_yr": 60,
+    "maint_yr": 362,
+    "reg_yr": 240,
+    "total_yr": 3265,
+    "upfront_cash": 7154,
+    "first_year_cash": 10204,
+    "three_year_total": 16733,
+    "mpg": 30,
+    "grade": "regular"
+   }
   },
   {
    "rank": 2,
@@ -64,7 +83,26 @@
    "img": "img/JTDKB20U177674239.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/7184608060431563154/1/640x480",
    "url": "https://www.carfax.com/vehicle/JTDKB20U177674239",
-   "why": "Automatic, 1 owner, no damage, 33 service records. 2007 hybrid pack is past its typical 8-10 year life: get a battery health test."
+   "why": "Automatic, 1 owner, no damage, 33 service records. 2007 hybrid pack is past its typical 8-10 year life: get a battery health test.",
+   "tire": {
+    "size": "185/65R15",
+    "lo": 328,
+    "hi": 696,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 1222,
+    "insurance_yr": 729,
+    "tires_yr": 87,
+    "maint_yr": 408,
+    "reg_yr": 246,
+    "total_yr": 2692,
+    "upfront_cash": 8373,
+    "first_year_cash": 10845,
+    "three_year_total": 16229,
+    "mpg": 46,
+    "grade": "regular"
+   }
   },
   {
    "rank": 3,
@@ -94,7 +132,26 @@
    "img": "img/JF2SH6BC2AH805496.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/822342605221162241/1/640x480",
    "url": "https://www.carfax.com/vehicle/JF2SH6BC2AH805496",
-   "why": "The SUV option: automatic, AWD, 1 owner. Minor damage on record and the 2.5L EJ25 is in the head-gasket-leak years: check for oil seep."
+   "why": "The SUV option: automatic, AWD, 1 owner. Minor damage on record and the 2.5L EJ25 is in the head-gasket-leak years: check for oil seep.",
+   "tire": {
+    "size": "215/65R16",
+    "lo": 332,
+    "hi": 856,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2555,
+    "insurance_yr": 643,
+    "tires_yr": 88,
+    "maint_yr": 632,
+    "reg_yr": 249,
+    "total_yr": 4166,
+    "upfront_cash": 8874,
+    "first_year_cash": 12816,
+    "three_year_total": 21149,
+    "mpg": 22,
+    "grade": "regular"
+   }
   },
   {
    "rank": 4,
@@ -124,7 +181,26 @@
    "img": "img/1HGCP26459A049864.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/8004431858794676949/1/640x480",
    "url": "https://www.carfax.com/vehicle/1HGCP26459A049864",
-   "why": "Automatic, no damage, cheap at $5,995, but 2 owners. 2008-11 Accord 4-cyl had a piston-ring oil-consumption bulletin; ask whether it was done."
+   "why": "Automatic, no damage, cheap at $5,995, but 2 owners. 2008-11 Accord 4-cyl had a piston-ring oil-consumption bulletin; ask whether it was done.",
+   "tire": {
+    "size": "215/60R16",
+    "lo": 366,
+    "hi": 744,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2342,
+    "insurance_yr": 761,
+    "tires_yr": 112,
+    "maint_yr": 400,
+    "reg_yr": 240,
+    "total_yr": 3855,
+    "upfront_cash": 7149,
+    "first_year_cash": 10789,
+    "three_year_total": 18499,
+    "mpg": 24,
+    "grade": "regular"
+   }
   },
   {
    "rank": 5,
@@ -154,7 +230,26 @@
    "img": "img/JT2BG22K110581033.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-1768155706542856936/1/640x480",
    "url": "https://www.carfax.com/vehicle/JT2BG22K110581033",
-   "why": "Conditional: automatic, 1 owner, cheapest real car at $4,900, but an accident is reported. Only if a PPI clears the frame and repair."
+   "why": "Conditional: automatic, 1 owner, cheapest real car at $4,900, but an accident is reported. Only if a PPI clears the frame and repair.",
+   "tire": {
+    "size": "205/65R15",
+    "lo": 360,
+    "hi": 792,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2342,
+    "insurance_yr": 729,
+    "tires_yr": 93,
+    "maint_yr": 388,
+    "reg_yr": 200,
+    "total_yr": 3752,
+    "upfront_cash": 5902,
+    "first_year_cash": 9479,
+    "three_year_total": 16983,
+    "mpg": 24,
+    "grade": "regular"
+   }
   },
   {
    "rank": 6,
@@ -184,7 +279,26 @@
    "img": "img/JM1BL1S68A1196854.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/6240455483967365815/1/640x480",
    "url": "https://www.carfax.com/vehicle/JM1BL1S68A1196854",
-   "why": "Automatic Mazda3 sedan with the bigger 2.5L, but 3+ owners and minor damage. Davis is a long drive (about 1h 53m)."
+   "why": "Automatic Mazda3 sedan with the bigger 2.5L, but 3+ owners and minor damage. Davis is a long drive (about 1h 53m).",
+   "tire": {
+    "size": "205/50R17",
+    "lo": 323,
+    "hi": 868,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2248,
+    "insurance_yr": 736,
+    "tires_yr": 104,
+    "maint_yr": 433,
+    "reg_yr": 245,
+    "total_yr": 3766,
+    "upfront_cash": 8059,
+    "first_year_cash": 11605,
+    "three_year_total": 19137,
+    "mpg": 25,
+    "grade": "regular"
+   }
   },
   {
    "rank": 7,
@@ -214,7 +328,26 @@
    "img": "img/JM1BL1V75C1558209.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/4829911003872442710/1/640x480",
    "url": "https://www.carfax.com/vehicle/JM1BL1V75C1558209",
-   "why": "Automatic Mazda3 sedan, 17 records, but 3+ owners, minor damage and rental use in its history. Close by in San Leandro."
+   "why": "Automatic Mazda3 sedan, 17 records, but 3+ owners, minor damage and rental use in its history. Close by in San Leandro.",
+   "tire": {
+    "size": "205/55R16",
+    "lo": 315,
+    "hi": 720,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2081,
+    "insurance_yr": 736,
+    "tires_yr": 85,
+    "maint_yr": 433,
+    "reg_yr": 246,
+    "total_yr": 3581,
+    "upfront_cash": 8153,
+    "first_year_cash": 11513,
+    "three_year_total": 18676,
+    "mpg": 27,
+    "grade": "regular"
+   }
   },
   {
    "rank": 8,
@@ -244,7 +377,26 @@
    "img": "img/JM1BL1H61A1254133.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/3030025547679327683/1/640x480",
    "url": "https://www.carfax.com/vehicle/JM1BL1H61A1254133",
-   "why": "Automatic 2.5L hatchback with 40 service records, but 3+ owners and minor damage."
+   "why": "Automatic 2.5L hatchback with 40 service records, but 3+ owners and minor damage.",
+   "tire": {
+    "size": "205/50R17",
+    "lo": 323,
+    "hi": 868,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2248,
+    "insurance_yr": 736,
+    "tires_yr": 104,
+    "maint_yr": 433,
+    "reg_yr": 246,
+    "total_yr": 3767,
+    "upfront_cash": 8185,
+    "first_year_cash": 11731,
+    "three_year_total": 19265,
+    "mpg": 25,
+    "grade": "regular"
+   }
   },
   {
    "rank": 9,
@@ -274,7 +426,26 @@
    "img": "img/JM1CW2BL0C0124529.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/2874972362192301469/1/640x480",
    "url": "https://www.carfax.com/vehicle/JM1CW2BL0C0124529",
-   "why": "Automatic, no damage, six-seat Mazda5 is practical, but 3+ owners and Stockton is over an hour away."
+   "why": "Automatic, no damage, six-seat Mazda5 is practical, but 3+ owners and Stockton is over an hour away.",
+   "tire": {
+    "size": "205/55R16",
+    "lo": 315,
+    "hi": 720,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2342,
+    "insurance_yr": 729,
+    "tires_yr": 85,
+    "maint_yr": 581,
+    "reg_yr": 241,
+    "total_yr": 3978,
+    "upfront_cash": 7379,
+    "first_year_cash": 11141,
+    "three_year_total": 19098,
+    "mpg": 24,
+    "grade": "regular"
+   }
   },
   {
    "rank": 10,
@@ -304,7 +475,26 @@
    "img": "img/JF1SF63522H750916.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-7473871977625682679/1/640x480",
    "url": "https://www.carfax.com/vehicle/JF1SF63522H750916",
-   "why": "Automatic AWD, 1 owner, but 2002 EJ25 head-gasket era and minor damage on record."
+   "why": "Automatic AWD, 1 owner, but 2002 EJ25 head-gasket era and minor damage on record.",
+   "tire": {
+    "size": "205/70R15",
+    "lo": 364,
+    "hi": 488,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2676,
+    "insurance_yr": 643,
+    "tires_yr": 93,
+    "maint_yr": 632,
+    "reg_yr": 240,
+    "total_yr": 4284,
+    "upfront_cash": 7372,
+    "first_year_cash": 11440,
+    "three_year_total": 20009,
+    "mpg": 21,
+    "grade": "regular"
+   }
   },
   {
    "rank": 11,
@@ -334,7 +524,26 @@
    "img": "img/1GCDM19X73B135769.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/3921740694635524169/1/640x480",
    "url": "https://www.carfax.com/vehicle/1GCDM19X73B135769",
-   "why": "Clean one-owner automatic, but it is a cargo van, not a second family car."
+   "why": "Clean one-owner automatic, but it is a cargo van, not a second family car.",
+   "tire": {
+    "size": "215/70R16",
+    "lo": 418,
+    "hi": 860,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 3306,
+    "insurance_yr": 729,
+    "tires_yr": 77,
+    "maint_yr": 647,
+    "reg_yr": 244,
+    "total_yr": 5003,
+    "upfront_cash": 7804,
+    "first_year_cash": 12588,
+    "three_year_total": 22594,
+    "mpg": 17,
+    "grade": "regular"
+   }
   },
   {
    "rank": 12,
@@ -364,7 +573,26 @@
    "img": "img/1YVFP80C435M20845.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/4477502171694658959/1/640x480",
    "url": "https://www.carfax.com/vehicle/1YVFP80C435M20845",
-   "why": "Cheap automatic, 1 owner, but damage reported and only 8 records."
+   "why": "Cheap automatic, 1 owner, but damage reported and only 8 records.",
+   "tire": {
+    "size": "205/60R16",
+    "lo": 334,
+    "hi": 764,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2555,
+    "insurance_yr": 729,
+    "tires_yr": 88,
+    "maint_yr": 481,
+    "reg_yr": 234,
+    "total_yr": 4087,
+    "upfront_cash": 6114,
+    "first_year_cash": 9991,
+    "three_year_total": 18165,
+    "mpg": 22,
+    "grade": "regular"
+   }
   },
   {
    "rank": 13,
@@ -394,7 +622,26 @@
    "img": "img/1HGCG3276WA008130.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-830011842194378337/1/640x480",
    "url": "https://www.carfax.com/vehicle/1HGCG3276WA008130",
-   "why": "$2,950 and 10 minutes away, but a 28-year-old coupe with 3+ owners."
+   "why": "$2,950 and 10 minutes away, but a 28-year-old coupe with 3+ owners.",
+   "tire": {
+    "size": "195/65R15",
+    "lo": 307,
+    "hi": 696,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2443,
+    "insurance_yr": 761,
+    "tires_yr": 84,
+    "maint_yr": 400,
+    "reg_yr": 187,
+    "total_yr": 3876,
+    "upfront_cash": 3740,
+    "first_year_cash": 7453,
+    "three_year_total": 15205,
+    "mpg": 23,
+    "grade": "regular"
+   }
   },
   {
    "rank": 14,
@@ -424,7 +671,26 @@
    "img": "img/WMWRC33526TJ78665.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-1847820852542000878/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWRC33526TJ78665",
-   "why": "Very low miles and 1 owner, but the 2006 base automatic is the CVT known to fail (repairs quoted over $8,000)."
+   "why": "Very low miles and 1 owner, but the 2006 base automatic is the CVT known to fail (repairs quoted over $8,000).",
+   "tire": {
+    "size": "175/65R15",
+    "lo": 328,
+    "hi": 776,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2346,
+    "insurance_yr": 729,
+    "tires_yr": 87,
+    "maint_yr": 846,
+    "reg_yr": 247,
+    "total_yr": 4256,
+    "upfront_cash": 8386,
+    "first_year_cash": 12419,
+    "three_year_total": 20931,
+    "mpg": 26,
+    "grade": "premium"
+   }
   },
   {
    "rank": 15,
@@ -454,7 +720,26 @@
    "img": "img/4JGCB65E87A045525.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-354464569201151431/1/640x480",
    "url": "https://www.carfax.com/vehicle/4JGCB65E87A045525",
-   "why": "Mercedes R-Class with 47 records and close by, but complex AWD Mercedes repair costs."
+   "why": "Mercedes R-Class with 47 records and close by, but complex AWD Mercedes repair costs.",
+   "tire": {
+    "size": "235/65R17",
+    "lo": 477,
+    "hi": 900,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 3812,
+    "insurance_yr": 729,
+    "tires_yr": 135,
+    "maint_yr": 1153,
+    "reg_yr": 241,
+    "total_yr": 6071,
+    "upfront_cash": 7377,
+    "first_year_cash": 13232,
+    "three_year_total": 25374,
+    "mpg": 16,
+    "grade": "premium"
+   }
   },
   {
    "rank": 16,
@@ -484,7 +769,26 @@
    "img": "img/1FM5K8AR4FGB61765.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/147986814441866285/1/640x480",
    "url": "https://www.carfax.com/vehicle/1FM5K8AR4FGB61765",
-   "why": "Ex-police Explorer: hard use and idle hours that the odometer does not show."
+   "why": "Ex-police Explorer: hard use and idle hours that the odometer does not show.",
+   "tire": {
+    "size": "245/55R18",
+    "lo": 640,
+    "hi": 1180,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2958,
+    "insurance_yr": 729,
+    "tires_yr": 167,
+    "maint_yr": 732,
+    "reg_yr": 247,
+    "total_yr": 4833,
+    "upfront_cash": 8332,
+    "first_year_cash": 12943,
+    "three_year_total": 22609,
+    "mpg": 19,
+    "grade": "regular"
+   }
   },
   {
    "rank": 17,
@@ -514,7 +818,9 @@
    "img": "img/JM1BK343251238412.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-5669503489879035950/1/640x480",
    "url": "https://www.carfax.com/vehicle/JM1BK343251238412",
-   "why": "One owner, no damage, but it is a manual."
+   "why": "One owner, no damage, but it is a manual.",
+   "tire": null,
+   "cost": null
   },
   {
    "rank": 18,
@@ -544,7 +850,9 @@
    "img": "img/JM1BL1WP2D1733368.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-3615258077819088664/1/640x480",
    "url": "https://www.carfax.com/vehicle/JM1BL1WP2D1733368",
-   "why": "Nice one-owner, no-damage Grand Touring, but it is a manual."
+   "why": "Nice one-owner, no-damage Grand Touring, but it is a manual.",
+   "tire": null,
+   "cost": null
   },
   {
    "rank": 19,
@@ -574,7 +882,26 @@
    "img": "img/WMWZC5C56CWL60813.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/2866053398835941906/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWZC5C56CWL60813",
-   "why": "Cheapest Mini at $5,179 with 1 owner, but the N18 timing-chain risk applies."
+   "why": "Cheapest Mini at $5,179 with 1 owner, but the N18 timing-chain risk applies.",
+   "tire": {
+    "size": "205/55R17",
+    "lo": 357,
+    "hi": 872,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2346,
+    "insurance_yr": 729,
+    "tires_yr": 111,
+    "maint_yr": 880,
+    "reg_yr": 235,
+    "total_yr": 4301,
+    "upfront_cash": 6245,
+    "first_year_cash": 10336,
+    "three_year_total": 18938,
+    "mpg": 26,
+    "grade": "premium"
+   }
   },
   {
    "rank": 20,
@@ -604,7 +931,26 @@
    "img": "img/WMWZC5C51CWM12509.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-2846142602002840386/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWZC5C51CWM12509",
-   "why": "N18 Cooper S engine (2011-16) with a known timing-chain tensioner risk. Pass despite 1 owner and no damage."
+   "why": "N18 Cooper S engine (2011-16) with a known timing-chain tensioner risk. Pass despite 1 owner and no damage.",
+   "tire": {
+    "size": "205/55R17",
+    "lo": 357,
+    "hi": 872,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2346,
+    "insurance_yr": 729,
+    "tires_yr": 111,
+    "maint_yr": 880,
+    "reg_yr": 241,
+    "total_yr": 4307,
+    "upfront_cash": 7243,
+    "first_year_cash": 11334,
+    "three_year_total": 19948,
+    "mpg": 26,
+    "grade": "premium"
+   }
   },
   {
    "rank": 21,
@@ -634,7 +980,9 @@
    "img": "img/4T1BE46K69U370106.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-3187938328378608470/1/640x480",
    "url": "https://www.carfax.com/vehicle/4T1BE46K69U370106",
-   "why": "A solid Camry, but it is a manual with 2 owners."
+   "why": "A solid Camry, but it is a manual with 2 owners.",
+   "tire": null,
+   "cost": null
   },
   {
    "rank": 22,
@@ -664,7 +1012,26 @@
    "img": "img/WBAVB17596NK33231.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-6976966934086628637/1/640x480",
    "url": "https://www.carfax.com/vehicle/WBAVB17596NK33231",
-   "why": "20-year-old BMW with damage reported: high repair costs."
+   "why": "20-year-old BMW with damage reported: high repair costs.",
+   "tire": {
+    "size": "205/55R16",
+    "lo": 315,
+    "hi": 720,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2905,
+    "insurance_yr": 931,
+    "tires_yr": 85,
+    "maint_yr": 739,
+    "reg_yr": 247,
+    "total_yr": 4907,
+    "upfront_cash": 8332,
+    "first_year_cash": 13017,
+    "three_year_total": 22830,
+    "mpg": 21,
+    "grade": "premium"
+   }
   },
   {
    "rank": 23,
@@ -694,7 +1061,26 @@
    "img": "img/WDBJF65J91B320509.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/2511795417187325426/1/640x480",
    "url": "https://www.carfax.com/vehicle/WDBJF65J91B320509",
-   "why": "25-year-old Mercedes with damage reported: repair costs run about double a Toyota or Honda."
+   "why": "25-year-old Mercedes with damage reported: repair costs run about double a Toyota or Honda.",
+   "tire": {
+    "size": "215/55R16",
+    "lo": 353,
+    "hi": 744,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2905,
+    "insurance_yr": 1006,
+    "tires_yr": 91,
+    "maint_yr": 788,
+    "reg_yr": 240,
+    "total_yr": 5029,
+    "upfront_cash": 7149,
+    "first_year_cash": 11964,
+    "three_year_total": 22023,
+    "mpg": 21,
+    "grade": "premium"
+   }
   },
   {
    "rank": 24,
@@ -724,7 +1110,26 @@
    "img": "img/2FAHP71VX9X126923.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/999681894227693112/1/640x480",
    "url": "https://www.carfax.com/vehicle/2FAHP71VX9X126923",
-   "why": "Ex-police Crown Vic with 3+ owners and only 3 service records."
+   "why": "Ex-police Crown Vic with 3+ owners and only 3 service records.",
+   "tire": {
+    "size": "235/55R17",
+    "lo": 416,
+    "hi": 900,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2958,
+    "insurance_yr": 729,
+    "tires_yr": 122,
+    "maint_yr": 1081,
+    "reg_yr": 244,
+    "total_yr": 5135,
+    "upfront_cash": 7915,
+    "first_year_cash": 12830,
+    "three_year_total": 23099,
+    "mpg": 19,
+    "grade": "regular"
+   }
   },
   {
    "rank": 25,
@@ -754,7 +1159,26 @@
    "img": "img/WMWSS5C53EWN67246.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-1887944808405848461/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWSS5C53EWN67246",
-   "why": "N18 timing-chain risk, damage reported, and Salinas is about 1h 23m away."
+   "why": "N18 timing-chain risk, damage reported, and Salinas is about 1h 23m away.",
+   "tire": {
+    "size": "205/55R17",
+    "lo": 357,
+    "hi": 872,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2179,
+    "insurance_yr": 729,
+    "tires_yr": 111,
+    "maint_yr": 846,
+    "reg_yr": 246,
+    "total_yr": 4111,
+    "upfront_cash": 8263,
+    "first_year_cash": 12153,
+    "three_year_total": 20375,
+    "mpg": 28,
+    "grade": "premium"
+   }
   },
   {
    "rank": 26,
@@ -784,7 +1208,26 @@
    "img": "img/WMWSS5C52DWN66510.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/566764403013839918/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWSS5C52DWN66510",
-   "why": "N18 timing-chain risk and 3+ owners."
+   "why": "N18 timing-chain risk and 3+ owners.",
+   "tire": {
+    "size": "205/55R17",
+    "lo": 357,
+    "hi": 872,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2179,
+    "insurance_yr": 729,
+    "tires_yr": 111,
+    "maint_yr": 846,
+    "reg_yr": 250,
+    "total_yr": 4114,
+    "upfront_cash": 8796,
+    "first_year_cash": 12686,
+    "three_year_total": 20915,
+    "mpg": 28,
+    "grade": "premium"
+   }
   },
   {
    "rank": 27,
@@ -814,7 +1257,26 @@
    "img": "img/WMWZC3C5XDWP21188.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/7677357357759739747/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWZC3C5XDWP21188",
-   "why": "N18 timing-chain risk and 3+ owners."
+   "why": "N18 timing-chain risk and 3+ owners.",
+   "tire": {
+    "size": "205/55R17",
+    "lo": 357,
+    "hi": 872,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2179,
+    "insurance_yr": 729,
+    "tires_yr": 111,
+    "maint_yr": 880,
+    "reg_yr": 240,
+    "total_yr": 4139,
+    "upfront_cash": 7154,
+    "first_year_cash": 11078,
+    "three_year_total": 19355,
+    "mpg": 28,
+    "grade": "premium"
+   }
   },
   {
    "rank": 28,
@@ -844,7 +1306,26 @@
    "img": "img/WDBWK54FX6F094943.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/7915988733749193126/1/640x480",
    "url": "https://www.carfax.com/vehicle/WDBWK54FX6F094943",
-   "why": "Two-seat Mercedes roadster, accident reported, 3+ owners."
+   "why": "Two-seat Mercedes roadster, accident reported, 3+ owners.",
+   "tire": {
+    "size": "205/55R16 x2 + 225/50R16 x2",
+    "lo": 381,
+    "hi": 676,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 2905,
+    "insurance_yr": 729,
+    "tires_yr": 96,
+    "maint_yr": 801,
+    "reg_yr": 246,
+    "total_yr": 4777,
+    "upfront_cash": 8165,
+    "first_year_cash": 12721,
+    "three_year_total": 22275,
+    "mpg": 21,
+    "grade": "premium"
+   }
   },
   {
    "rank": 29,
@@ -874,7 +1355,9 @@
    "img": "img/WMWWG5C31H3C20380.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-175519410491131658/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWWG5C31H3C20380",
-   "why": "Convertible with a manual and 3+ owners. Fun, but fails both must-haves."
+   "why": "Convertible with a manual and 3+ owners. Fun, but fails both must-haves.",
+   "tire": null,
+   "cost": null
   },
   {
    "rank": 30,
@@ -904,7 +1387,9 @@
    "img": "img/WMWMF735X7TL86786.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/6734166717130969764/1/640x480",
    "url": "https://www.carfax.com/vehicle/WMWMF735X7TL86786",
-   "why": "Manual, accident reported, and the 2007-10 Cooper S N14 engine has timing-chain tensioner issues. About 1h 41m away."
+   "why": "Manual, accident reported, and the 2007-10 Cooper S N14 engine has timing-chain tensioner issues. About 1h 41m away.",
+   "tire": null,
+   "cost": null
   }
  ]
 }

@@ -40,6 +40,7 @@ function passes(c){
   if($('fPass').checked&&c.tier=='Pass')return false;
   if(c.driveMin>+$('fDrive').value)return false;
   if(c.price>+$('fPrice').value)return false;
+  if(+$('fCost').value<99999&&(!c.cost||c.cost.total_yr>+$('fCost').value))return false;
   if($('fBody').value&&c.body!=$('fBody').value)return false;
   return true;
 }
@@ -52,13 +53,25 @@ function card(c){
   '<div><div class="h"><div class="title">'+esc(c.title)+'</div><div class="price">'+money(c.price)+'</div></div>'+
   '<div class="badges"><span class="tier '+t+'">'+c.tier+'</span><span class="b '+(c.trans=='Auto'?'auto':'man')+'">'+(c.trans=='Auto'?'Automatic':'Manual')+'</span><span class="b">'+fmt(c.miles)+' mi</span><span class="b '+ownCls(c.owners)+'">'+c.owners+' owner'+(c.owners=='1'?'':'s')+'</span><span class="b '+dmgCls(c.damage)+'">'+(c.damage=='None'?'No damage':c.damage)+'</span><span class="b">'+c.service+' service records</span><span class="b">'+c.body+'</span><span class="b seller">'+c.seller+'</span></div>'+
   '<div class="meta">'+esc(c.dealer)+' &middot; '+esc(c.city)+' &middot; <a href="tel:'+c.phone.replace(/[^0-9]/g,'')+'">'+c.phone+'</a><br>'+hm(c.driveMin)+' &middot; '+c.driveMi+' mi from Fremont (no traffic)</div>'+
-  '<div class="why">'+esc(c.why)+'</div>'+
+  costHtml(c)+'<div class="why">'+esc(c.why)+'</div>'+
   '<div class="act"><a class="btn primary" href="'+c.url+'" target="_blank" rel="noopener">View listing</a><label class="addtrip"><input type="checkbox" class="tripchk" data-vin="'+c.vin+'"'+(trip.has(c.vin)?' checked':'')+'> Test-drive trip</label><span class="score">Score <b>'+c.score+'</b></span></div>'+
   '</div></article>';
 }
+function cv(c,k){return c.cost?c.cost[k]:1e9}
+var MAXYR=Math.max.apply(0,cars.filter(function(c){return c.cost}).map(function(c){return c.cost.total_yr}));
+function costHtml(c){
+  var t=c.tire,k=c.cost;
+  var tl='Tires '+(t?esc(t.size)+' &middot; set '+money(t.lo)+'-'+money(t.hi)+' + '+money(t.install)+' install':'&mdash;');
+  if(!k)return '<div class="cost">'+tl+'<br>Running <b>&mdash;</b> &middot; 3-yr total <b>&mdash;</b></div>';
+  var parts=[['f','Fuel',k.fuel_yr],['i','Insurance (est.)',k.insurance_yr],['t','Tires',k.tires_yr],['m','Maintenance',k.maint_yr],['r','Registration',k.reg_yr]];
+  var tip=parts.map(function(p){return p[1]+' '+money(p[2])}).join(', ');
+  return '<div class="cost">'+tl+'<br>Running <b>'+money(k.total_yr)+'/yr</b> &middot; 3-yr total <b>'+money(k.three_year_total)+'</b> <span style="color:var(--mute)">(no resale)</span>'+
+   '<div class="cbar" title="'+tip+'" aria-label="'+tip+'">'+parts.map(function(p){return '<i class="'+p[0]+'" style="width:'+(p[2]/MAXYR*100).toFixed(1)+'%"></i>'}).join('')+'</div>'+
+   '<div style="font-size:11px;color:var(--mute);margin-top:2px">Fuel '+money(k.fuel_yr)+' ('+k.mpg+' mpg) &middot; Ins. est. '+money(k.insurance_yr)+' &middot; Tires '+money(k.tires_yr)+' &middot; Maint. '+money(k.maint_yr)+' &middot; Reg. '+money(k.reg_yr)+'</div></div>';
+}
 function render(){
   var s=$('sort').value,list=cars.filter(passes);
-  list.sort(function(a,b){return s=='price'?a.price-b.price:s=='miles'?a.miles-b.miles:s=='dist'?a.driveMin-b.driveMin:a.rank-b.rank});
+  list.sort(function(a,b){return s=='price'?a.price-b.price:s=='miles'?a.miles-b.miles:s=='dist'?a.driveMin-b.driveMin:s=='yr'?cv(a,'total_yr')-cv(b,'total_yr'):s=='three'?cv(a,'three_year_total')-cv(b,'three_year_total'):a.rank-b.rank});
   $('list').innerHTML=list.length?list.map(card).join(''):'<div class="empty">No cars match these filters.</div>';
   var vis=new Set(list.map(function(c){return c.vin}));
   cars.slice().reverse().forEach(function(c){var m=markers[c.vin];if(vis.has(c.vin)){if(!map.hasLayer(m))m.addTo(map)}else if(map.hasLayer(m))map.removeLayer(m)});
@@ -83,7 +96,7 @@ $('list').addEventListener('change',function(e){
   if(!e.target.classList.contains('tripchk'))return;
   var v=e.target.dataset.vin;e.target.checked?trip.add(v):trip.delete(v);updTrip();
 });
-['fAuto','fOwner','fDmg','fPass','fDrive','fPrice','fBody','sort'].forEach(function(id){$(id).addEventListener('change',render)});
+['fAuto','fOwner','fDmg','fPass','fDrive','fPrice','fCost','fBody','sort'].forEach(function(id){$(id).addEventListener('change',render)});
 
 // trip planner: nearest-neighbor from home
 function dist(a,b){var R=3958.8,r=Math.PI/180,dl=(b.lat-a.lat)*r,dn=(b.lng-a.lng)*r,x=Math.sin(dl/2)*Math.sin(dl/2)+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dn/2)*Math.sin(dn/2);return 2*R*Math.asin(Math.sqrt(x))}
