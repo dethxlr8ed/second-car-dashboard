@@ -83,3 +83,50 @@ table.el{border-collapse:collapse;width:100%;font-size:12px;min-width:1180px}
 .el-n{margin-top:8px;font-size:12px;color:#38414c;line-height:1.5}
 .el td.c-car,.el th[data-k=car]{position:sticky;left:0;z-index:1;background:#fff;box-shadow:1px 0 0 var(--line)}
 .el th[data-k=car]{background:#f4f6f9;z-index:2}
+
+.dot.ev{background:#5b4fcf}
+.legend{max-width:calc(100% - 20px);align-items:center}
+.legend .evtog{font-size:12px;color:#36404b;margin:0}
+.legend .fitbtns{display:flex;gap:4px}
+.legend .fitbtns .btn{padding:2px 7px;font-size:11px}
+.mk-mini{background:linear-gradient(135deg,#f3e9e9,#e4d3d3)}
+.mk-volkswagen,.mk-bmw,.mk-tesla,.mk-chevrolet,.mk-nissan,.mk-hyundai,.mk-kia{background:linear-gradient(135deg,#eceaf6,#d9d5ea)}
+
+.laf,.ev-h{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:8px}
+.laf strong,.ev-h strong{font-size:15px}.laf span,.ev-h span{font-size:12px;color:var(--mute)}
+.tripcost{font-size:11.5px;color:#38414c;margin-top:3px}
+
+.evside{background:#f7f5fc;border-top:2px solid #5b4fcf;border-bottom:1px solid var(--line);padding:16px}
+.evside .ev-warn{background:#fff;border-left:4px solid #5b4fcf;padding:8px 12px;margin:0 0 12px;font-size:13px;color:#2b323b}
+.evside p{font-size:13px;color:#36404b;margin:0 0 10px;max-width:980px;line-height:1.5}
+.ev-sub{font-size:14px;margin:16px 0 6px}
+.ev-note{font-size:12px;color:#38414c;margin:0 0 8px;max-width:980px;line-height:1.5}
+.flags{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.b.evf{background:#efeafc;color:#3b2d7a;border-color:#d9d0f3}
+.b.warnf{background:#fff4dc;color:#7a5300;border-color:#f3e0b0}
+table.ev{border-collapse:collapse;width:100%;font-size:12px;min-width:1280px}
+.ev th{position:sticky;top:0;background:#efeafc;text-align:left;font-weight:600;padding:7px 8px;border-bottom:1px solid var(--line);cursor:pointer;white-space:nowrap;user-select:none}
+.ev th.on{color:#3b2d7a}
+.ev td{padding:7px 8px;border-bottom:1px solid #e8e4f2;vertical-align:top}
+.ev tr[data-vin]{cursor:pointer}.ev tr[data-vin]:hover td{background:#f3f0fb}
+.ev td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
+.ev .thumb{width:72px;height:48px;object-fit:cover;border-radius:4px;background:#dde1e6;display:block}
+.ev .thumb-none{width:72px;height:48px;border-radius:4px;background:#e8e4f2;display:flex;align-items:center;justify-content:center;font-size:10px;color:var(--mute);text-align:center;padding:2px}
+.ev .mute{color:var(--mute);font-size:11px}
+.ev-cmp{overflow-x:auto;border:1px solid #d9d0f3;border-radius:8px;margin:8px 0 14px;background:#fff}
+.sens{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0 14px}
+.sens div{background:#fff;border:1px solid #d9d0f3;border-radius:8px;padding:10px 12px;font-size:12.5px;color:#38414c;line-height:1.5}
+.sens b{color:var(--ink)}
+@media (max-width:860px){
+ .sens{grid-template-columns:1fr}
+ .legend{bottom:8px;right:8px;left:8px}
+}
+.ev tr.sel td{background:#ece6fb}
+.browse{display:contents}
+@media (min-width:861px){
+  .browse{display:block}
+  .browse .filters{position:sticky;top:0;z-index:1000}
+  .filters{position:static}
+}
+.evside{scroll-margin-top:8px}
+table.ev td:nth-child(2){min-width:240px;max-width:320px}
