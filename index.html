@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Second car shortlist - under $10k near Fremont</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><strong>Second car shortlist</strong><span>Under $10k, within driving range of Fremont. CARFAX data read Nov 13, 2026.</span></div>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="filters" id="filters">
+  <label class="chk"><input type="checkbox" id="fAuto"> Automatic only</label>
+  <label class="chk"><input type="checkbox" id="fOwner"> 1 owner</label>
+  <label class="chk"><input type="checkbox" id="fDmg"> No damage</label>
+  <label class="chk"><input type="checkbox" id="fPass"> Hide passes</label>
+  <label class="sel">Max drive <select id="fDrive"><option value="999">Any</option><option value="30">30 min</option><option value="45">45 min</option><option value="60">1 hr</option><option value="90">1.5 hr</option></select></label>
+  <label class="sel">Max price <select id="fPrice"><option value="99999">Any</option><option value="5000">$5,000</option><option value="6000">$6,000</option><option value="7000">$7,000</option><option value="8000">$8,000</option></select></label>
+  <label class="sel">Body <select id="fBody"><option value="">All</option></select></label>
+  <label class="sel">Sort <select id="sort"><option value="rank">Our rank</option><option value="price">Price</option><option value="miles">Miles</option><option value="dist">Drive time</option></select></label>
+</div>
+<main class="layout">
+  <section class="list" id="list" aria-label="Ranked listings"></section>
+  <section class="mapwrap">
+    <div id="map" aria-label="Map of dealers"></div>
+    <div class="legend"><span><i class="dot top"></i>Top pick</span><span><i class="dot maybe"></i>Worth a look</span><span><i class="dot pass"></i>Pass</span><span><i class="home"></i>Fremont center</span></div>
+  </section>
+</main>
+<div class="trip" id="trip" hidden>
+  <div><strong id="tripCount"></strong> <span id="tripMeta"></span></div>
+  <div class="tripbtns"><a id="tripLink" class="btn primary" target="_blank" rel="noopener">Open route in Google Maps</a><button id="tripClear" class="btn">Clear</button></div>
+</div>
+<section class="notes">
+  <h2>Dealer clusters</h2>
+  <p>Several cars share a town, so one stop covers more than one test drive. Easy first trip: San Mateo has #1, #5 and #10 about 33 min away. The long one: Davis has #3 and #6 at the same dealer on Chiles Rd, about 1 h 53 min each way.</p>
+  <ul id="clusters"></ul>
+  <h2>How we rank</h2>
+  <p>Tiers and the order within Top pick and Worth a look match our hand-reviewed comparison page. The score is a 0-100 position within that order. Passes are ordered by a weighted blend: automatic (biggest factor, so either of us can drive it), single owner, no reported damage, model reliability reputation, price, miles, CARFAX service records, and drive time as a small factor. Penalties: Mini N18 Cooper S engines (2011-16 Cooper S, Countryman S, Paceman S) for timing-chain risk, 2007-10 Cooper S N14 for the same, ex-police cars for hard use, older Mercedes and BMW for repair cost, the 2006 Mini base automatic for its CVT, and the 2007 Prius for hybrid battery age.</p>
+  <p>Drive times and distances are from Fremont city center, by OSRM routing over OpenStreetMap, <strong>without traffic</strong>. Expect longer at rush hour. All 30 listings are dealer sales per CARFAX. Prices, miles and history are as CARFAX showed them on Nov 13, 2026; confirm with the dealer before driving out.</p>
+  <h2>Notes and sources</h2>
+  <ul class="src">
+    <li>Mini N18 timing-chain tensioner: MINI service action for N18 tensioner seal (<a href="https://static.nhtsa.gov/odi/tsbs/2012/SB-10046760-1461.pdf">NHTSA TSB PDF</a>); R60 Countryman faults (<a href="https://www.australiancar.reviews/recalls-faults-mini-r60-countryman-2011-16/">AustralianCar.Reviews</a>); N12-N18 chains replaced as early as 70k miles (<a href="https://www.carhavneuro.com/mini-timing-chain-and-valvetronic-repair">CarHavn Eurotech</a>); 2007-13 Cooper S tensioner (<a href="https://www.autocar.co.uk/car-news/used-cars/used-car-buying-guide-mini-cooper-s">Autocar</a>).</li>
+    <li>2003-06 Mini base CVT: failures seen from 55k to 110k miles, dealer replacement quoted over $8,000 (<a href="https://coastmotorwerk.com/mini-cvt/">Coast Motor Werk</a>); diagnostic guide (<a href="https://www.northamericanmotoring.com/how-tos/a/mini-cooper-2001-2006-cvt-transmission-diagnostic-guide-431056">North American Motoring</a>).</li>
+    <li>2004-09 Prius hybrid battery: designed for about 8-10 years or 100k-150k miles; replacement roughly $1,100-$1,400 reman, about $2,100 new-cell, $2,700-$3,300 Toyota pack before labor (<a href="https://themotorguy.com/prius-battery-replacement-cost/">The Motor Guy</a>, <a href="https://acehybridgroup.com/2004-2009-toyota-prius-hybrid-battery-replacement/">Ace Hybrid</a>).</li>
+    <li>2008-11 Accord 4-cyl oil consumption: Honda extended piston and ring coverage to 8 years/125k miles (now expired on a 2009) (<a href="https://static.nhtsa.gov/odi/tsbs/2016/SB-10083874-2280.pdf">Honda bulletin via NHTSA</a>, <a href="https://www.consumerreports.org/cro/news/2015/05/honda-accord-cr-v-warranties-extended-for-excess-oil-consumption/index.htm">Consumer Reports</a>).</li>
+    <li>Subaru EJ25 head gaskets: 1999-2010 Forester non-turbo 2.5L, usually an external oil leak, often around 100k-150k miles (<a href="https://www.jalopnik.com/2036717/subaru-model-years-with-head-gasket-problems/">Jalopnik</a>, <a href="https://www.underhoodservice.com/subaru-head-gaskets/">Underhood Service</a>).</li>
+    <li>1998-2002 Corolla 1ZZ-FE: early engines known to burn oil from piston-ring design (<a href="https://repairahead.com/toyota-1zz/">RepairAhead</a>).</li>
+    <li>Ex-police cars: ask for engine idle hours, since idling wear does not show on the odometer (<a href="https://autounlim.com/buying-a-used-police-car-check-the-idle-hours-first">AutoUnlim</a>).</li>
+    <li>Repair cost: RepairPal average annual repair cost Mercedes-Benz $908, BMW $968, Toyota $441, Honda $428 (<a href="https://repairpal.com/mercedes-benz">Mercedes</a>, <a href="https://repairpal.com/bmw">BMW</a>, <a href="https://repairpal.com/toyota">Toyota</a>, <a href="https://repairpal.com/reliability/honda">Honda</a>).</li>
+    <li>Body types decoded from each VIN with NHTSA vPIC. Map data &copy; OpenStreetMap contributors. Geocoding by Nominatim, with Photon and the US Census geocoder for one address Nominatim could not match.</li>
+  </ul>
+  <p class="foot">Full comparison with good, bad and ugly: <a href="https://cursor.com/canvas/store-bf44227f-59f4-42e4-9878-8e6ba874ca73/f3f84c40-c035-4fc7-a1cc-79bd3821f34a">Under $10k second-car comparison</a>. Listing photos from CARFAX. Not affiliated with CARFAX or any dealer.</p>
+</section>
+<script src="vendor/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
