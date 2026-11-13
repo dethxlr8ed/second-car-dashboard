@@ -27,7 +27,7 @@ cars.slice().reverse().forEach(function(c){
   var lat=c.lat+(n-1)*0.0016,lng=c.lng+(n-1)*0.0016;
   var t=TC[c.tier];
   var m=L.circleMarker([lat,lng],{radius:t=='pass'?7:9,color:'#fff',weight:2,fillColor:COL[t],fillOpacity:.95});
-  m.bindPopup('<div class="pop"><b>#'+c.rank+' '+esc(c.title)+'</b><br>'+money(c.price)+' &middot; '+fmt(c.miles)+' mi &middot; '+c.trans+'<br>'+esc(c.dealer)+', '+esc(c.city)+'<br>'+hm(c.driveMin)+', '+c.driveMi+' mi from Fremont<br><a href="'+c.url+'" target="_blank" rel="noopener">View listing</a></div>');
+  m.bindPopup('<div class="pop"><b>#'+c.rank+' '+esc(c.title)+'</b><br>'+money(c.price)+' &middot; '+fmt(c.miles)+' mi &middot; '+c.trans+'<br>'+esc(c.dealer)+', '+esc(c.city)+(c.locNote?'<br><i>'+esc(c.locNote)+'</i>':'')+'<br>'+(c.locNote?'About ':'')+hm(c.driveMin)+', '+c.driveMi+' mi from Fremont<br><a href="'+c.url+'" target="_blank" rel="noopener">View listing</a></div>');
   m.on('click',function(){select(c.vin,true)});
   m.addTo(map);markers[c.vin]=m;
 });
@@ -41,6 +41,7 @@ function passes(c){
   if(c.driveMin>+$('fDrive').value)return false;
   if(c.price>+$('fPrice').value)return false;
   if(+$('fCost').value<99999&&(!c.cost||c.cost.total_yr>+$('fCost').value))return false;
+  if($('fSrc').value&&c.source!=$('fSrc').value)return false;
   if($('fBody').value&&c.body!=$('fBody').value)return false;
   return true;
 }
@@ -49,10 +50,11 @@ function ownCls(o){return o=='1'?'good':(o=='2'?'warn':'bad')}
 function card(c){
   var t=TC[c.tier];
   return '<article class="card" id="c-'+c.vin+'" data-vin="'+c.vin+'">'+
-  '<div class="ph"><span class="ph-fallback">No photo</span><img loading="lazy" alt="'+esc(c.title)+'" src="'+c.img+'" data-alt="'+c.photo+'" onerror="if(this.dataset.alt&&this.src!=this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt=\'\'}else{this.style.display=\'none\'}"><span class="rank">#'+c.rank+'</span></div>'+
+  (c.img?'<div class="ph"><span class="ph-fallback">'+esc(c.title.split(' ').slice(1,3).join(' '))+'</span><img loading="lazy" alt="'+esc(c.title)+'" src="'+c.img+'" data-alt="'+(c.photo||'')+'" onerror="if(this.dataset.alt&&this.src!=this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt=\'\'}else{this.style.display=\'none\'}"><span class="rank">#'+c.rank+'</span></div>':
+   '<div class="ph ph-none mk-'+c.title.split(' ')[1].toLowerCase().replace(/[^a-z]/g,'')+'"><span class="ph-model"><small>'+c.year+'</small>'+esc(c.title.split(' ').slice(1).join(' '))+'<em>Photo on CARFAX</em></span><span class="rank">#'+c.rank+'</span></div>')+
   '<div><div class="h"><div class="title">'+esc(c.title)+'</div><div class="price">'+money(c.price)+'</div></div>'+
-  '<div class="badges"><span class="tier '+t+'">'+c.tier+'</span><span class="b '+(c.trans=='Auto'?'auto':'man')+'">'+(c.trans=='Auto'?'Automatic':'Manual')+'</span><span class="b">'+fmt(c.miles)+' mi</span><span class="b '+ownCls(c.owners)+'">'+c.owners+' owner'+(c.owners=='1'?'':'s')+'</span><span class="b '+dmgCls(c.damage)+'">'+(c.damage=='None'?'No damage':c.damage)+'</span><span class="b">'+c.service+' service records</span><span class="b">'+c.body+'</span><span class="b seller">'+c.seller+'</span></div>'+
-  '<div class="meta">'+esc(c.dealer)+' &middot; '+esc(c.city)+' &middot; <a href="tel:'+c.phone.replace(/[^0-9]/g,'')+'">'+c.phone+'</a><br>'+hm(c.driveMin)+' &middot; '+c.driveMi+' mi from Fremont (no traffic)</div>'+
+  '<div class="badges"><span class="tier '+t+'">'+c.tier+'</span><span class="b '+(c.trans=='Auto'?'auto':'man')+'">'+(c.trans=='Auto'?'Automatic':'Manual')+'</span><span class="b">'+fmt(c.miles)+' mi</span><span class="b '+ownCls(c.owners)+'">'+c.owners+' owner'+(c.owners=='1'?'':'s')+'</span><span class="b '+dmgCls(c.damage)+'">'+(c.damage=='None'?'No damage':c.damage)+'</span><span class="b">'+(c.service==null?'&mdash;':c.service)+' service records</span><span class="b">'+c.body+'</span><span class="b seller'+(c.seller=='Private'?' priv':'')+'">'+c.seller+'</span>'+(c.deal?'<span class="b deal">CARFAX: '+c.deal+' deal</span>':'')+'<span class="b src">'+c.source+'</span></div>'+
+  '<div class="meta">'+esc(c.dealer)+' &middot; '+esc(c.city)+(c.phone?' &middot; <a href="tel:'+c.phone.replace(/[^0-9]/g,'')+'">'+c.phone+'</a>':'')+'<br>'+(c.locNote?'About ':'')+hm(c.driveMin)+' &middot; '+c.driveMi+' mi from Fremont (no traffic)'+(c.locNote?'<br><span class="locnote">'+esc(c.locNote)+'</span>':'')+'</div>'+
   costHtml(c)+'<div class="why">'+esc(c.why)+'</div>'+
   '<div class="act"><a class="btn primary" href="'+c.url+'" target="_blank" rel="noopener">View listing</a><label class="addtrip"><input type="checkbox" class="tripchk" data-vin="'+c.vin+'"'+(trip.has(c.vin)?' checked':'')+'> Test-drive trip</label><span class="score">Score <b>'+c.score+'</b></span></div>'+
   '</div></article>';
@@ -61,7 +63,7 @@ function cv(c,k){return c.cost?c.cost[k]:1e9}
 var MAXYR=Math.max.apply(0,cars.filter(function(c){return c.cost}).map(function(c){return c.cost.total_yr}));
 function costHtml(c){
   var t=c.tire,k=c.cost;
-  var tl='Tires '+(t?esc(t.size)+' &middot; set '+money(t.lo)+'-'+money(t.hi)+' + '+money(t.install)+' install':'&mdash;');
+  var tl='Tires '+(t?esc(t.size)+' &middot; set '+money(t.lo)+(t.hi?'-'+money(t.hi):' (budget; no premium pick in this size)')+' + '+money(t.install)+' install':'&mdash;');
   if(!k)return '<div class="cost">'+tl+'<br>Running <b>&mdash;</b> &middot; 3-yr total <b>&mdash;</b></div>';
   var parts=[['f','Fuel',k.fuel_yr],['i','Insurance (est.)',k.insurance_yr],['t','Tires',k.tires_yr],['m','Maintenance',k.maint_yr],['r','Registration',k.reg_yr]];
   var tip=parts.map(function(p){return p[1]+' '+money(p[2])}).join(', ');
@@ -96,7 +98,7 @@ $('list').addEventListener('change',function(e){
   if(!e.target.classList.contains('tripchk'))return;
   var v=e.target.dataset.vin;e.target.checked?trip.add(v):trip.delete(v);updTrip();
 });
-['fAuto','fOwner','fDmg','fPass','fDrive','fPrice','fCost','fBody','sort'].forEach(function(id){$(id).addEventListener('change',render)});
+['fAuto','fOwner','fDmg','fPass','fDrive','fPrice','fCost','fBody','fSrc','sort'].forEach(function(id){$(id).addEventListener('change',render)});
 
 // trip planner: nearest-neighbor from home
 function dist(a,b){var R=3958.8,r=Math.PI/180,dl=(b.lat-a.lat)*r,dn=(b.lng-a.lng)*r,x=Math.sin(dl/2)*Math.sin(dl/2)+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dn/2)*Math.sin(dn/2);return 2*R*Math.asin(Math.sqrt(x))}
@@ -119,5 +121,8 @@ var by={};cars.forEach(function(c){(by[c.city]=by[c.city]||[]).push(c)});
 $('clusters').innerHTML=Object.keys(by).filter(function(k){return by[k].length>1}).sort(function(a,b){return by[b].length-by[a].length||by[a][0].driveMin-by[b][0].driveMin}).map(function(k){
   var l=by[k],dl=new Set(l.map(function(c){return c.dealer})).size;
   return '<li><strong>'+k+'</strong>: '+l.length+' cars at '+dl+' dealer'+(dl>1?'s':'')+', about '+hm(Math.min.apply(0,l.map(function(c){return c.driveMin})))+' away. '+l.sort(function(a,b){return a.rank-b.rank}).map(function(c){return '#'+c.rank+' '+esc(c.title)}).join(', ')+'.</li>'}).join('');
+var nf=cars.filter(function(c){return c.source!='Followed'}).sort(function(a,b){return a.rank-b.rank}).slice(0,5);
+$('newfinds').innerHTML='<div class="nf-h"><strong>New finds</strong><span>Best 5 from the 100-mile CARFAX search (automatic, 1 owner, no damage, personal use)</span></div><div class="nf-row">'+nf.map(function(c){return '<button class="nf" data-vin="'+c.vin+'"><span class="nf-r">#'+c.rank+'</span><b>'+esc(c.title)+'</b><span>'+money(c.price)+' &middot; '+fmt(c.miles)+' mi &middot; '+(c.locNote?'about ':'')+hm(c.driveMin)+'</span><span>'+esc(c.city)+' &middot; '+c.seller+(c.cost?' &middot; '+money(c.cost.total_yr)+'/yr':'')+'</span></button>'}).join('')+'</div>';
+$('newfinds').addEventListener('click',function(e){var b=e.target.closest('.nf');if(!b)return;var v=b.dataset.vin;if(!$('c-'+v)){['fAuto','fOwner','fDmg','fPass'].forEach(function(i){$(i).checked=false});['fDrive','fPrice','fCost'].forEach(function(i){$(i).value=$(i).options[0].value});$('fBody').value='';$('fSrc').value='';render()}select(v,false);var el=$('c-'+v);if(el)el.scrollIntoView({behavior:'smooth',block:'center'})});
 render();
 })();
