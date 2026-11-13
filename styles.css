@@ -42,7 +42,7 @@ a{color:var(--acc)}
 .trip span{color:#aab3bf;font-size:12.5px}.tripbtns{display:flex;gap:8px}
 .notes{max-width:900px;margin:0 auto;padding:18px 16px 40px}.notes h2{font-size:15px;margin:18px 0 6px}.notes p,.notes li{color:#36404b;font-size:13px}
 .src li{margin-bottom:4px}.foot{border-top:1px solid var(--line);padding-top:12px;margin-top:18px}
-.pop b{font-size:13px}.pop{font-size:12px}
+.pop b{font-size:13px}.pop{font-size:12px;min-width:200px;max-width:260px}.pop-img{width:100%;height:120px;object-fit:cover;border-radius:6px;display:block;margin:0 0 6px;background:#dde1e6}
 @media (max-width:860px){
  .layout{display:flex;flex-direction:column;height:auto}
  .mapwrap{order:-1;height:46vh;min-height:300px}

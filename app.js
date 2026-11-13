@@ -7,6 +7,7 @@ var fmt=function(n){return n.toLocaleString('en-US')};
 var money=function(n){return '$'+fmt(n)};
 var hm=function(m){return m<60?m+' min':Math.floor(m/60)+' h '+(m%60)+' min'};
 var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var photoEl=function(c,cls){return c.img?'<img'+(cls?' class="'+cls+'"':'')+' loading="lazy" alt="'+esc(c.title)+'" src="'+c.img+'" data-alt="'+(c.photo||'')+'" referrerpolicy="no-referrer" onerror="if(this.dataset.alt&&this.src!=this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt=\'\'}else{this.style.display=\'none\'}">':''};
 var trip=new Set(),selVin=null;
 
 // stats
@@ -27,7 +28,7 @@ cars.slice().reverse().forEach(function(c){
   var lat=c.lat+(n-1)*0.0016,lng=c.lng+(n-1)*0.0016;
   var t=TC[c.tier];
   var m=L.circleMarker([lat,lng],{radius:t=='pass'?7:9,color:'#fff',weight:2,fillColor:COL[t],fillOpacity:.95});
-  m.bindPopup('<div class="pop"><b>#'+c.rank+' '+esc(c.title)+'</b><br>'+money(c.price)+' &middot; '+fmt(c.miles)+' mi &middot; '+c.trans+'<br>'+esc(c.dealer)+', '+esc(c.city)+(c.locNote?'<br><i>'+esc(c.locNote)+'</i>':'')+'<br>'+(c.locNote?'About ':'')+hm(c.driveMin)+', '+c.driveMi+' mi from Fremont<br><a href="'+c.url+'" target="_blank" rel="noopener">View listing</a></div>');
+  m.bindPopup('<div class="pop">'+photoEl(c,'pop-img')+'<b>#'+c.rank+' '+esc(c.title)+'</b><br>'+money(c.price)+' &middot; '+fmt(c.miles)+' mi &middot; '+c.trans+(c.color?' &middot; '+esc(c.color):'')+'<br>'+esc(c.dealer)+', '+esc(c.city)+(c.locNote?'<br><i>'+esc(c.locNote)+'</i>':'')+'<br>'+(c.locNote?'About ':'')+hm(c.driveMin)+', '+c.driveMi+' mi from Fremont<br><a href="'+c.url+'" target="_blank" rel="noopener">View listing</a></div>');
   m.on('click',function(){select(c.vin,true)});
   m.addTo(map);markers[c.vin]=m;
 });
@@ -50,8 +51,8 @@ function ownCls(o){return o=='1'?'good':(o=='2'?'warn':'bad')}
 function card(c){
   var t=TC[c.tier];
   return '<article class="card" id="c-'+c.vin+'" data-vin="'+c.vin+'">'+
-  (c.img?'<div class="ph"><span class="ph-fallback">'+esc(c.title.split(' ').slice(1,3).join(' '))+'</span><img loading="lazy" alt="'+esc(c.title)+'" src="'+c.img+'" data-alt="'+(c.photo||'')+'" onerror="if(this.dataset.alt&&this.src!=this.dataset.alt){this.src=this.dataset.alt;this.dataset.alt=\'\'}else{this.style.display=\'none\'}"><span class="rank">#'+c.rank+'</span></div>':
-   '<div class="ph ph-none mk-'+c.title.split(' ')[1].toLowerCase().replace(/[^a-z]/g,'')+'"><span class="ph-model"><small>'+c.year+'</small>'+esc(c.title.split(' ').slice(1).join(' '))+'<em>Photo on CARFAX</em></span><span class="rank">#'+c.rank+'</span></div>')+
+  (c.img?'<div class="ph"><span class="ph-fallback">'+esc(c.title.split(' ').slice(1,3).join(' '))+'</span>'+photoEl(c)+'<span class="rank">#'+c.rank+'</span></div>':
+   '<div class="ph ph-none mk-'+c.title.split(' ')[1].toLowerCase().replace(/[^a-z]/g,'')+'"><span class="ph-model"><small>'+c.year+'</small>'+esc(c.title.split(' ').slice(1).join(' '))+'<em>No photo on listing</em></span><span class="rank">#'+c.rank+'</span></div>')+
   '<div><div class="h"><div class="title">'+esc(c.title)+'</div><div class="price">'+money(c.price)+'</div></div>'+
   '<div class="badges"><span class="tier '+t+'">'+c.tier+'</span><span class="b '+(c.trans=='Auto'?'auto':'man')+'">'+(c.trans=='Auto'?'Automatic':'Manual')+'</span><span class="b">'+fmt(c.miles)+' mi</span><span class="b '+ownCls(c.owners)+'">'+c.owners+' owner'+(c.owners=='1'?'':'s')+'</span><span class="b '+dmgCls(c.damage)+'">'+(c.damage=='None'?'No damage':c.damage)+'</span><span class="b">'+(c.service==null?'&mdash;':c.service)+' service records</span><span class="b">'+c.body+'</span><span class="b seller'+(c.seller=='Private'?' priv':'')+'">'+c.seller+'</span>'+(c.deal?'<span class="b deal">CARFAX: '+c.deal+(/Value/.test(c.deal)?'':' deal')+'</span>':'')+'<span class="b src">'+c.source+'</span></div>'+
   '<div class="meta">'+esc(c.dealer)+' &middot; '+esc(c.city)+(c.phone?' &middot; <a href="tel:'+c.phone.replace(/[^0-9]/g,'')+'">'+c.phone+'</a>':'')+'<br>'+(c.locNote?'About ':'')+hm(c.driveMin)+' &middot; '+c.driveMi+' mi from Fremont (no traffic)'+(c.locNote?'<br><span class="locnote">'+esc(c.locNote)+'</span>':'')+'</div>'+
