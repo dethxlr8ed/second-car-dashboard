@@ -40,11 +40,6 @@
    "vin": "1HGCM56707A197258",
    "risk": "19-year-old Honda 5-speed automatic",
    "inspect": "PPI; cold start for timing-chain rattle; transmission fluid and shifts; power-steering leaks"
-  },
-  {
-   "vin": "1NXBR12E52Z627183",
-   "risk": "24 years old; 1ZZ-FE oil use on older Corollas",
-   "inspect": "PPI; oil level and consumption, hoses, mounts"
   }
  ],
  "elite_note": "None of the LA-region cars beat the current elite shortlist on score. The long drive from Fremont costs the maximum drive-time penalty, and the local 100-mile cars still lead on the numbers.",
@@ -439,62 +434,6 @@
    "locNote": "",
    "color": null,
    "otd": 10251,
-   "trip": null
-  },
-  {
-   "rank": 8,
-   "tier": "Top pick",
-   "score": 96,
-   "vin": "1NXBR12E52Z627183",
-   "title": "2002 Toyota Corolla LE",
-   "year": 2002,
-   "price": 5999,
-   "miles": 76828,
-   "trans": "Auto",
-   "owners": "1",
-   "damage": "None",
-   "service": 12,
-   "seller": "Dealer",
-   "dealer": "Premium Auto",
-   "address": "4001 S El Camino Real, San Mateo, CA 94403",
-   "city": "San Mateo",
-   "phone": "(650) 459-4484",
-   "use": "Personal",
-   "body": "Sedan",
-   "drive": "4x2",
-   "lat": 37.5322703,
-   "lng": -122.2918885,
-   "driveMin": 34,
-   "driveMi": 22.7,
-   "img": "img/1NXBR12E52Z627183.jpg",
-   "photo": "https://carfax-img.vast.com/carfax/v2/-5306079269970205281/1/640x480",
-   "url": "https://www.carfax.com/vehicle/1NXBR12E52Z627183",
-   "why": "Automatic, 1 owner, no damage, lowest miles of the sensible picks (76.8k). Early 1ZZ-FE engines can burn oil: check the dipstick and exhaust.",
-   "tire": {
-    "size": "185/65R14",
-    "lo": 258,
-    "hi": 446,
-    "install": 196
-   },
-   "cost": {
-    "fuel_yr": 1873,
-    "insurance_yr": 729,
-    "tires_yr": 60,
-    "maint_yr": 362,
-    "reg_yr": 240,
-    "total_yr": 3265,
-    "upfront_cash": 7154,
-    "first_year_cash": 10204,
-    "three_year_total": 16733,
-    "mpg": 30,
-    "grade": "regular",
-    "four_year_total": 19998
-   },
-   "source": "Followed",
-   "deal": null,
-   "locNote": "",
-   "color": null,
-   "otd": 6929,
    "trip": null
   },
   {
@@ -22042,6 +21981,66 @@
    "removed": {
     "date": "2026-11-14",
     "reason": "Removed by owner after Carfax review (thin service history, auction car)."
+   }
+  },
+  {
+   "rank": 8,
+   "tier": "Top pick",
+   "score": 96,
+   "vin": "1NXBR12E52Z627183",
+   "title": "2002 Toyota Corolla LE",
+   "year": 2002,
+   "price": 5999,
+   "miles": 76828,
+   "trans": "Auto",
+   "owners": "1",
+   "damage": "None",
+   "service": 12,
+   "seller": "Dealer",
+   "dealer": "Premium Auto",
+   "address": "4001 S El Camino Real, San Mateo, CA 94403",
+   "city": "San Mateo",
+   "phone": "(650) 459-4484",
+   "use": "Personal",
+   "body": "Sedan",
+   "drive": "4x2",
+   "lat": 37.5322703,
+   "lng": -122.2918885,
+   "driveMin": 34,
+   "driveMi": 22.7,
+   "img": "img/1NXBR12E52Z627183.jpg",
+   "photo": "https://carfax-img.vast.com/carfax/v2/-5306079269970205281/1/640x480",
+   "url": "https://www.carfax.com/vehicle/1NXBR12E52Z627183",
+   "why": "Automatic, 1 owner, no damage, lowest miles of the sensible picks (76.8k). Early 1ZZ-FE engines can burn oil: check the dipstick and exhaust.",
+   "tire": {
+    "size": "185/65R14",
+    "lo": 258,
+    "hi": 446,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 1873,
+    "insurance_yr": 729,
+    "tires_yr": 60,
+    "maint_yr": 362,
+    "reg_yr": 240,
+    "total_yr": 3265,
+    "upfront_cash": 7154,
+    "first_year_cash": 10204,
+    "three_year_total": 16733,
+    "mpg": 30,
+    "grade": "regular",
+    "four_year_total": 19998
+   },
+   "source": "Followed",
+   "deal": null,
+   "locNote": "",
+   "color": null,
+   "otd": 6929,
+   "trip": null,
+   "removed": {
+    "date": "2026-11-14",
+    "reason": "Removed by owner after Carfax review."
    }
   }
  ]
