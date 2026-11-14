@@ -8,7 +8,7 @@
  "elite": [
   {
    "vin": "4T1BF3EK5BU744557",
-   "risk": "Private sale: no warranty or dealer recourse; three 1-owner private listings in Hayward may be one seller",
+   "risk": "Dealer sale at Elite Motors, the same lot as the Mazda5; confirm the price ($9,777 on the listing page vs $10,297 on the inventory list)",
    "inspect": "PPI with OBD scan; title in seller name; seller must supply a smog certificate"
   },
   {
@@ -57,11 +57,11 @@
    "owners": "1",
    "damage": "None",
    "service": null,
-   "seller": "Private",
-   "dealer": "Private seller",
-   "address": "Hayward, CA",
+   "seller": "Dealer",
+   "dealer": "Elite Motors (Hybrid Auto Sales)",
+   "address": "21227 Mission Blvd, Hayward, CA 94541",
    "city": "Hayward",
-   "phone": "",
+   "phone": "415-999-8265",
    "use": "Personal",
    "body": "Sedan",
    "drive": "4x2",
@@ -72,7 +72,7 @@
    "img": "img/4T1BF3EK5BU744557.jpg",
    "photo": "https://carfax-img.vast.com/carfax/v2/-451646966795917962/1/640x480",
    "url": "https://www.carfax.com/vehicle/4T1BF3EK5BU744557",
-   "why": "Automatic, 1 owner, no damage, only 85k miles, 25 mpg, about $3,742/yr to run, close by. Private seller: no dealer recourse, so get a PPI.",
+   "why": "Automatic, 1 owner, no damage, only 85k miles, 25 mpg, about $3,742/yr to run, close by. Dealer: Elite Motors in Hayward, same lot as the Mazda5. Get a PPI.",
    "tire": {
     "size": "215/60R16",
     "lo": 366,
@@ -95,7 +95,7 @@
    },
    "source": "Search: 100 mi",
    "deal": null,
-   "locNote": "Private seller: pinned at city center, exact location unknown",
+   "locNote": "Elite Motors, 21227 Mission Blvd, Hayward (same lot as the 2007 Mazda5). Listing page shows $9,777; dealer inventory list showed $10,297 on Nov 14, 2026.",
    "color": "Gold",
    "otd": 11034,
    "trip": null
