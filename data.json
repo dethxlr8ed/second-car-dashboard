@@ -610,8 +610,8 @@
    "trip": {
     "drive_mi": 404.1,
     "gas_oneway": 69,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -731,80 +731,6 @@
    "color": null,
    "otd": 10318,
    "trip": null
-  },
-  {
-   "rank": 13,
-   "tier": "Top pick",
-   "score": 92,
-   "vin": "JTDKB20U177674239",
-   "title": "2007 Toyota Prius",
-   "year": 2007,
-   "price": 6977,
-   "miles": 133296,
-   "trans": "Auto",
-   "owners": "1",
-   "damage": "None",
-   "service": 33,
-   "seller": "Dealer",
-   "dealer": "Gilroy Motorsports",
-   "address": "8405 Monterey St Ste B, Gilroy, CA 95020",
-   "city": "Gilroy",
-   "phone": "(866) 730-5348",
-   "use": "Personal",
-   "body": "Hatchback",
-   "drive": "4x2",
-   "lat": 37.0196001,
-   "lng": -121.5753949,
-   "driveMin": 58,
-   "driveMi": 47.0,
-   "img": "img/JTDKB20U177674239.jpg",
-   "photo": "https://carfax-img.vast.com/carfax/v2/7184608060431563154/1/640x480",
-   "url": "https://www.carfax.com/vehicle/JTDKB20U177674239",
-   "why": "Automatic, 1 owner, no damage, 33 service records. 2007 hybrid pack is past its typical 8-10 year life: get a battery health test.",
-   "tire": {
-    "size": "185/65R15",
-    "lo": 328,
-    "hi": 696,
-    "install": 196
-   },
-   "cost": {
-    "fuel_yr": 1222,
-    "insurance_yr": 729,
-    "tires_yr": 87,
-    "maint_yr": 408,
-    "reg_yr": 246,
-    "total_yr": 2692,
-    "upfront_cash": 8373,
-    "first_year_cash": 10845,
-    "three_year_total": 16229,
-    "mpg": 46,
-    "grade": "regular",
-    "four_year_total": 18921
-   },
-   "source": "Followed",
-   "deal": null,
-   "locNote": "",
-   "color": null,
-   "otd": 8013,
-   "trip": null,
-   "hybrid": {
-    "gen": "Prius Gen 2 (2004-2009)",
-    "pack": "NiMH",
-    "age_yr": 19,
-    "miles": 133296,
-    "risk": "Med",
-    "risk_p": 0.5,
-    "aftermarket_installed": 1700,
-    "reserve": 850,
-    "three_year_with_reserve": 17079,
-    "four_year_with_reserve": 19771,
-    "covered": false,
-    "warranty": "Not covered. Nationwide hybrid-battery coverage on pre-2020 Toyotas was 8 years or 100,000 miles. California-spec 2004-2017 Prius also had a 10 year/150,000 mile hybrid-battery term under the California emissions warranty, in California and some other states (Toyota T-SB-0074-20). On this 2007, both terms ended by 2017 or at 150,000 miles. Toyota's later 10 year/150,000 mile nationwide battery warranty applies to 2020 and newer hybrids only.",
-    "issues": "Inverter coolant pump (Gen 2 and Gen 3): a wear item, typically $300-$600 installed at a specialist (Belyer lists $300 for 2004-2015; Tucson Hybrids cites $300-$600). If the pump is ignored, inverter damage can run $2,500-$5,000.",
-    "health": "Get a Dr. Prius / Dr. Hybrid OBD test (block voltages and a capacity test) or a shop scan ($100-$200; this dashboard already includes a $135 Hybrid Battery Solutions deep scan in Prius upfront costs). Warning signs: falling mpg, a battery gauge that swings quickly, the engine running more often, a red triangle or Check Hybrid System light, or reduced power. A weak 12-volt battery can mimic a dead pack.",
-    "typical_life": "10-15 years or 150k-250k miles, typical, assuming the original pack is still in the car (service records on these listings are not complete enough to confirm a prior replacement).",
-    "verdict": "Still a top pick once the battery is counted. A $850 reserve raises the 3-year total from $16,229 to $17,079, which is within a few hundred dollars of the 2002 Corolla LE ($16,733) and still cheaper over 4 years. Get a Dr. Prius or shop pack test first; the warranty expired years ago."
-   }
   },
   {
    "rank": 14,
@@ -1087,8 +1013,8 @@
    "trip": {
     "drive_mi": 390.4,
     "gas_oneway": 66,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1210,8 +1136,8 @@
    "trip": {
     "drive_mi": 384.3,
     "gas_oneway": 70,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1333,8 +1259,8 @@
    "trip": {
     "drive_mi": 411.8,
     "gas_oneway": 75,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1456,8 +1382,8 @@
    "trip": {
     "drive_mi": 372.0,
     "gas_oneway": 84,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1523,8 +1449,8 @@
    "trip": {
     "drive_mi": 374.9,
     "gas_oneway": 73,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1646,8 +1572,8 @@
    "trip": {
     "drive_mi": 373.0,
     "gas_oneway": 72,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1713,8 +1639,8 @@
    "trip": {
     "drive_mi": 394.2,
     "gas_oneway": 96,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1780,8 +1706,8 @@
    "trip": {
     "drive_mi": 395.9,
     "gas_oneway": 72,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1847,8 +1773,8 @@
    "trip": {
     "drive_mi": 411.8,
     "gas_oneway": 80,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1914,8 +1840,8 @@
    "trip": {
     "drive_mi": 365.0,
     "gas_oneway": 79,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -1981,8 +1907,8 @@
    "trip": {
     "drive_mi": 337.2,
     "gas_oneway": 82,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2048,8 +1974,8 @@
    "trip": {
     "drive_mi": 378.9,
     "gas_oneway": 85,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2115,8 +2041,8 @@
    "trip": {
     "drive_mi": 401.3,
     "gas_oneway": 78,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2182,8 +2108,8 @@
    "trip": {
     "drive_mi": 394.2,
     "gas_oneway": 92,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2249,8 +2175,8 @@
    "trip": {
     "drive_mi": 355.8,
     "gas_oneway": 69,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2316,8 +2242,8 @@
    "trip": {
     "drive_mi": 381.9,
     "gas_oneway": 93,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2383,8 +2309,8 @@
    "trip": {
     "drive_mi": 475.5,
     "gas_oneway": 107,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2506,8 +2432,8 @@
    "trip": {
     "drive_mi": 475.5,
     "gas_oneway": 116,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2629,8 +2555,8 @@
    "trip": {
     "drive_mi": 356.7,
     "gas_oneway": 87,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2696,8 +2622,8 @@
    "trip": {
     "drive_mi": 371.3,
     "gas_oneway": 70,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2763,8 +2689,8 @@
    "trip": {
     "drive_mi": 394.2,
     "gas_oneway": 92,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2830,8 +2756,8 @@
    "trip": {
     "drive_mi": 344.1,
     "gas_oneway": 54,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2897,8 +2823,8 @@
    "trip": {
     "drive_mi": 475.5,
     "gas_oneway": 107,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -2964,8 +2890,8 @@
    "trip": {
     "drive_mi": 475.5,
     "gas_oneway": 116,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3143,8 +3069,8 @@
    "trip": {
     "drive_mi": 411.8,
     "gas_oneway": 101,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3266,8 +3192,8 @@
    "trip": {
     "drive_mi": 385.0,
     "gas_oneway": 75,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3333,8 +3259,8 @@
    "trip": {
     "drive_mi": 444.6,
     "gas_oneway": 78,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3400,8 +3326,8 @@
    "trip": {
     "drive_mi": 395.9,
     "gas_oneway": 97,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3467,8 +3393,8 @@
    "trip": {
     "drive_mi": 378.9,
     "gas_oneway": 76,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3534,8 +3460,8 @@
    "trip": {
     "drive_mi": 395.9,
     "gas_oneway": 78,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3601,8 +3527,8 @@
    "trip": {
     "drive_mi": 385.0,
     "gas_oneway": 90,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3668,8 +3594,8 @@
    "trip": {
     "drive_mi": 359.8,
     "gas_oneway": 70,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3791,8 +3717,8 @@
    "trip": {
     "drive_mi": 340.3,
     "gas_oneway": 83,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3858,8 +3784,8 @@
    "trip": {
     "drive_mi": 344.6,
     "gas_oneway": 62,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3925,8 +3851,8 @@
    "trip": {
     "drive_mi": 475.5,
     "gas_oneway": 86,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -3992,8 +3918,8 @@
    "trip": {
     "drive_mi": 395.9,
     "gas_oneway": 97,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4059,8 +3985,8 @@
    "trip": {
     "drive_mi": 350.4,
     "gas_oneway": 76,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4126,8 +4052,8 @@
    "trip": {
     "drive_mi": 376.3,
     "gas_oneway": 92,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4193,8 +4119,8 @@
    "trip": {
     "drive_mi": 377.5,
     "gas_oneway": 73,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4260,8 +4186,8 @@
    "trip": {
     "drive_mi": 368.1,
     "gas_oneway": 67,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4439,8 +4365,8 @@
    "trip": {
     "drive_mi": 475.5,
     "gas_oneway": 95,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4506,8 +4432,8 @@
    "trip": {
     "drive_mi": 337.0,
     "gas_oneway": 61,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4573,8 +4499,8 @@
    "trip": {
     "drive_mi": 343.0,
     "gas_oneway": 80,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4696,8 +4622,8 @@
    "trip": {
     "drive_mi": 371.9,
     "gas_oneway": 67,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4763,8 +4689,8 @@
    "trip": {
     "drive_mi": 384.3,
     "gas_oneway": 98,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4904,8 +4830,8 @@
    "trip": {
     "drive_mi": 384.3,
     "gas_oneway": 98,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -4971,8 +4897,8 @@
    "trip": {
     "drive_mi": 389.3,
     "gas_oneway": 95,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5112,8 +5038,8 @@
    "trip": {
     "drive_mi": 387.5,
     "gas_oneway": 76,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5179,8 +5105,8 @@
    "trip": {
     "drive_mi": 411.8,
     "gas_oneway": 83,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5302,8 +5228,8 @@
    "trip": {
     "drive_mi": 384.3,
     "gas_oneway": 103,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5369,8 +5295,8 @@
    "trip": {
     "drive_mi": 385.0,
     "gas_oneway": 94,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5436,8 +5362,8 @@
    "trip": {
     "drive_mi": 401.3,
     "gas_oneway": 81,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5503,8 +5429,8 @@
    "trip": {
     "drive_mi": 475.5,
     "gas_oneway": 58,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5588,8 +5514,8 @@
    "trip": {
     "drive_mi": 344.1,
     "gas_oneway": 74,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5655,8 +5581,8 @@
    "trip": {
     "drive_mi": 381.3,
     "gas_oneway": 77,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5722,8 +5648,8 @@
    "trip": {
     "drive_mi": 384.3,
     "gas_oneway": 103,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -5975,8 +5901,8 @@
    "trip": {
     "drive_mi": 416.7,
     "gas_oneway": 87,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -6490,8 +6416,8 @@
    "trip": {
     "drive_mi": 482.0,
     "gas_oneway": 104,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -6557,8 +6483,8 @@
    "trip": {
     "drive_mi": 387.5,
     "gas_oneway": 99,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -6624,8 +6550,8 @@
    "trip": {
     "drive_mi": 323.8,
     "gas_oneway": 73,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -6859,7 +6785,7 @@
    "trip": {
     "drive_mi": 541.3,
     "gas_oneway": 113,
-    "flight": "One-way flights SJC/OAK to LAS are often in a similar $60\u2013$100 advance-fare band; this is an estimate, not a live quote.",
+    "flight": "One-way flights SJC/OAK to LAS are often in a similar $60–$100 advance-fare band; this is an estimate, not a live quote.",
     "train": "No practical Amtrak equivalent for this city; treat the drive as the trip.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
@@ -7000,8 +6926,8 @@
    "trip": {
     "drive_mi": 401.3,
     "gas_oneway": 45,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -7215,8 +7141,8 @@
    "trip": {
     "drive_mi": 362.9,
     "gas_oneway": 42,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -7430,8 +7356,8 @@
    "trip": {
     "drive_mi": 404.1,
     "gas_oneway": 103,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -7497,8 +7423,8 @@
    "trip": {
     "drive_mi": 368.1,
     "gas_oneway": 77,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -7564,8 +7490,8 @@
    "trip": {
     "drive_mi": 395.9,
     "gas_oneway": 46,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -7853,8 +7779,8 @@
    "trip": {
     "drive_mi": 374.1,
     "gas_oneway": 44,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -7994,8 +7920,8 @@
    "trip": {
     "drive_mi": 323.8,
     "gas_oneway": 40,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -8153,8 +8079,8 @@
    "trip": {
     "drive_mi": 384.3,
     "gas_oneway": 94,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -8332,8 +8258,8 @@
    "trip": {
     "drive_mi": 387.4,
     "gas_oneway": 45,
-    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60\u2013$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares SJC/OAK to LAX/SNA often $60–$80 (Southwest from $59 for December 2026 dates, seen Nov 13, 2026; Alaska from $64). Near-term November 2026 fares can be higher (Southwest about $179). Fares vary by date and are not a live quote.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -9015,7 +8941,7 @@
    "trip": {
     "drive_mi": 541.3,
     "gas_oneway": 105,
-    "flight": "One-way flights SJC/OAK to LAS are often in a similar $60\u2013$100 advance-fare band; this is an estimate, not a live quote.",
+    "flight": "One-way flights SJC/OAK to LAS are often in a similar $60–$100 advance-fare band; this is an estimate, not a live quote.",
     "train": "No practical Amtrak equivalent for this city; treat the drive as the trip.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
@@ -9561,8 +9487,8 @@
    "trip": {
     "drive_mi": 482.0,
     "gas_oneway": 118,
-    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60\u2013$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
-    "train": "Amtrak Oakland to Los Angeles: about $68\u2013$82 one-way on Nov 14, 2026 listings (Omio), typically 9\u201312 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
+    "flight": "Advance off-peak one-way fares from SJC/OAK to SAN are often about $60–$80, in line with the LA basin routes. Fares vary by date; near-term can be higher.",
+    "train": "Amtrak Oakland to Los Angeles: about $68–$82 one-way on Nov 14, 2026 listings (Omio), typically 9–12 hours. San Diego requires a further Pacific Surfliner connection. Estimate, not a reserved fare.",
     "sources": [
      "AAA via Contra Costa News 2026-11-13 (Oakland regular $5.62 / premium $6.10 context in costs.json)",
      "https://www.southwest.com/en/flights/flights-from-san-jose-ca-to-los-angeles",
@@ -11027,7 +10953,7 @@
     ],
     "flags": [
      "No federal used-EV credit after Sept 30, 2025",
-     "Branded title shown on the CARFAX card \u2014 confirm what it means before any trip",
+     "Branded title shown on the CARFAX card — confirm what it means before any trip",
      "2023 Bolts were built after the production fix, but still verify the VIN for any open recall"
     ],
     "branded": true,
@@ -11453,7 +11379,7 @@
     ],
     "flags": [
      "No federal used-EV credit after Sept 30, 2025",
-     "Branded title shown on the CARFAX card \u2014 confirm what it means before any trip",
+     "Branded title shown on the CARFAX card — confirm what it means before any trip",
      "2023 Bolts were built after the production fix, but still verify the VIN for any open recall"
     ],
     "branded": true,
@@ -12654,7 +12580,7 @@
   }
  },
  "manuals": {
-  "note": "Manual unicorns, one owner, personal use, within 500 miles of Fremont, searched on CARFAX Nov 14, 2026. The family needs an automatic, so these are a side-look and are not in the main ranking, elite shortlist, or verdict. The same score is shown for reference only (manuals get no automatic points). Budget is $10,000; the search cap was $13,000, and cars over $10,000 are badged. Tier 1 has no damage on record. Tier 2 has a minor or moderate accident or damage report, not salvage, rebuilt, flood, structural, or airbag. Two 2016-or-newer cars are the manual shortlist: the 2016 Mini Cooper S in Davis and the 2016 WRX in Norco. Eight 2016-or-newer cars are marked not of interest and are hidden until that toggle is turned on. The other 2016-or-newer cars are unreviewed. The pre-2016 set (89 cars: 49 Tier 1, 40 Tier 2) is labeled pre-2016 and marked unverified, card data only \u2014 detail pages were not opened. Sedans in this set get a limited-family-space badge; SUV/CUV, wagon and hatchback get a family-space badge. No hybrids appeared in the pre-2016 set.",
+  "note": "Manual unicorns, one owner, personal use, within 500 miles of Fremont, searched on CARFAX Nov 14, 2026. The family needs an automatic, so these are a side-look and are not in the main ranking, elite shortlist, or verdict. The same score is shown for reference only (manuals get no automatic points). Budget is $10,000; the search cap was $13,000, and cars over $10,000 are badged. Tier 1 has no damage on record. Tier 2 has a minor or moderate accident or damage report, not salvage, rebuilt, flood, structural, or airbag. Two 2016-or-newer cars are the manual shortlist: the 2016 Mini Cooper S in Davis and the 2016 WRX in Norco. Eight 2016-or-newer cars are marked not of interest and are hidden until that toggle is turned on. The other 2016-or-newer cars are unreviewed. The pre-2016 set (89 cars: 49 Tier 1, 40 Tier 2) is labeled pre-2016 and marked unverified, card data only — detail pages were not opened. Sedans in this set get a limited-family-space badge; SUV/CUV, wagon and hatchback get a family-space badge. No hybrids appeared in the pre-2016 set.",
   "searched": "CARFAX all-makes search, 500 miles of 94538, 2016-2021 (CARFAX shrank the year range to match inventory), $0-$13,000, 1-Owner, Personal Use, Transmission Manual. No Accidents filter off. 29 matches: 19 Tier 1, 10 Tier 2. No luxury or exotic makes came up. Pre-2016: all-makes search, 500 miles of 94538, all years then kept model year 2015 and older, $0-$13,000, 1-Owner, Personal Use, Transmission Manual, No Accidents off. 89 kept (49 Tier 1, 40 Tier 2); none excluded for severe or branded title. Body type was inferred from the model name on the card.",
   "budget": 10000,
   "cap": 13000,
@@ -18954,7 +18880,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 6,910 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 6,910 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -18976,8 +18902,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 5.2,
-    "why": "Manual, 1 owner, 1998 (pre-2016), 200,378 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident \u2014 severity not shown on card, check report; 6,910 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 6,910 mi/yr",
+    "why": "Manual, 1 owner, 1998 (pre-2016), 200,378 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident — severity not shown on card, check report; 6,910 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 6,910 mi/yr",
     "mpg_text": "Sentra/200SX / Man 5-spd, 4 cyl, 1.6 L",
     "tire": {
      "size": "205/55R16",
@@ -19112,7 +19038,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 10,528 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 10,528 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -19134,8 +19060,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 9.8,
-    "why": "Manual, 1 owner, 2005 (pre-2016), 231,610 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Fa. Accident \u2014 severity not shown on card, check report; 10,528 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 10,528 mi/yr",
+    "why": "Manual, 1 owner, 2005 (pre-2016), 231,610 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Fa. Accident — severity not shown on card, check report; 10,528 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 10,528 mi/yr",
     "mpg_text": "PT Cruiser / Man 5-spd, 4 cyl, 2.4 L",
     "tire": {
      "size": "205/55R16",
@@ -19348,7 +19274,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 9,854 mi/yr; SEDAN",
+    "damage_raw": "Accident — severity not shown on card, check report; 9,854 mi/yr; SEDAN",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -19370,8 +19296,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 32.4,
-    "why": "Manual, 1 owner, 2007 (pre-2016), 197,082 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Se. Accident \u2014 severity not shown on card, check report; 9,854 mi/yr; SEDAN.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 9,854 mi/yr; SEDAN",
+    "why": "Manual, 1 owner, 2007 (pre-2016), 197,082 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Se. Accident — severity not shown on card, check report; 9,854 mi/yr; SEDAN.",
+    "notes": "Accident — severity not shown on card, check report; 9,854 mi/yr; SEDAN",
     "mpg_text": "Camry / Man 5-spd, 4 cyl, 2.4 L",
     "tire": {
      "size": "205/55R16",
@@ -19428,7 +19354,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 6,678 mi/yr; SEDAN",
+    "damage_raw": "Accident — severity not shown on card, check report; 6,678 mi/yr; SEDAN",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -19450,8 +19376,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 34.2,
-    "why": "Manual, 1 owner, 2013 (pre-2016), 93,486 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Se. Accident \u2014 severity not shown on card, check report; 6,678 mi/yr; SEDAN.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 6,678 mi/yr; SEDAN",
+    "why": "Manual, 1 owner, 2013 (pre-2016), 93,486 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Se. Accident — severity not shown on card, check report; 6,678 mi/yr; SEDAN.",
+    "notes": "Accident — severity not shown on card, check report; 6,678 mi/yr; SEDAN",
     "mpg_text": "500 / Man 5-spd, 4 cyl, 1.4 L",
     "tire": {
      "size": "205/55R16",
@@ -19588,7 +19514,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 2,806 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 2,806 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -19610,8 +19536,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 6.4,
-    "why": "Manual, 1 owner, 2007 (pre-2016), 56,121 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Fa. Luxury brand; budget for higher maintenance and insurance than the mainstream shortlist. Accident \u2014 severity not shown on card, check report; 2,806 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 2,806 mi/yr",
+    "why": "Manual, 1 owner, 2007 (pre-2016), 56,121 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Fa. Luxury brand; budget for higher maintenance and insurance than the mainstream shortlist. Accident — severity not shown on card, check report; 2,806 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 2,806 mi/yr",
     "mpg_text": "Cooper / Man 6-spd, 4 cyl, 1.6 L",
     "tire": {
      "size": "205/55R16",
@@ -19746,7 +19672,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 8,032 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 8,032 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -19768,8 +19694,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 10.1,
-    "why": "Manual, 1 owner, 2002 (pre-2016), 200,788 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident \u2014 severity not shown on card, check report; 8,032 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 8,032 mi/yr",
+    "why": "Manual, 1 owner, 2002 (pre-2016), 200,788 miles. Unverified, card data only. Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident — severity not shown on card, check report; 8,032 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 8,032 mi/yr",
     "mpg_text": "Civic / Man 5-spd, 4 cyl, 1.7 L",
     "tire": {
      "size": "205/55R16",
@@ -19986,7 +19912,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Damage reported",
-    "damage_raw": "? \u2014 severity not shown on card, check report; 3,791 mi/yr",
+    "damage_raw": "? — severity not shown on card, check report; 3,791 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -20008,8 +19934,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 38.7,
-    "why": "Manual, 1 owner, 2009 (pre-2016), 68,235 miles. Unverified, card data only. Damage reported on record; severity not shown on the card, check the free CARFAX report. ? \u2014 severity not shown on card, check report; 3,791 mi/yr.",
-    "notes": "? \u2014 severity not shown on card, check report; 3,791 mi/yr",
+    "why": "Manual, 1 owner, 2009 (pre-2016), 68,235 miles. Unverified, card data only. Damage reported on record; severity not shown on the card, check the free CARFAX report. ? — severity not shown on card, check report; 3,791 mi/yr.",
+    "notes": "? — severity not shown on card, check report; 3,791 mi/yr",
     "mpg_text": "New Beetle / Man 5-spd, 5 cyl, 2.5 L",
     "tire": {
      "size": "205/55R16",
@@ -20224,7 +20150,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Damage reported",
-    "damage_raw": "Damage \u2014 severity not shown on card, check report; 5,863 mi/yr; SEDAN",
+    "damage_raw": "Damage — severity not shown on card, check report; 5,863 mi/yr; SEDAN",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -20246,8 +20172,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 37.7,
-    "why": "Manual, 1 owner, 2007 (pre-2016), 117,256 miles. Unverified, card data only. Damage reported on record; severity not shown on the card, check the free CARFAX report. Se. Damage \u2014 severity not shown on card, check report; 5,863 mi/yr; SEDAN.",
-    "notes": "Damage \u2014 severity not shown on card, check report; 5,863 mi/yr; SEDAN",
+    "why": "Manual, 1 owner, 2007 (pre-2016), 117,256 miles. Unverified, card data only. Damage reported on record; severity not shown on the card, check the free CARFAX report. Se. Damage — severity not shown on card, check report; 5,863 mi/yr; SEDAN.",
+    "notes": "Damage — severity not shown on card, check report; 5,863 mi/yr; SEDAN",
     "mpg_text": "3 / Man 6-spd, 4 cyl, 2.3 L, Turbo",
     "tire": {
      "size": "205/55R16",
@@ -20304,7 +20230,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Damage reported",
-    "damage_raw": "Damage \u2014 severity not shown on card, check report; 9,171 mi/yr",
+    "damage_raw": "Damage — severity not shown on card, check report; 9,171 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -20326,8 +20252,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 40.3,
-    "why": "Manual, 1 owner, 2012 (pre-2016), 137,561 miles. Unverified, card data only. Damage reported on record; severity not shown on the card, check the free CARFAX report. Fa. Damage \u2014 severity not shown on card, check report; 9,171 mi/yr.",
-    "notes": "Damage \u2014 severity not shown on card, check report; 9,171 mi/yr",
+    "why": "Manual, 1 owner, 2012 (pre-2016), 137,561 miles. Unverified, card data only. Damage reported on record; severity not shown on the card, check the free CARFAX report. Fa. Damage — severity not shown on card, check report; 9,171 mi/yr.",
+    "notes": "Damage — severity not shown on card, check report; 9,171 mi/yr",
     "mpg_text": "GTI / Man 6-spd, 4 cyl, 2.0 L, Turbo",
     "tire": {
      "size": "205/55R16",
@@ -20382,7 +20308,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Damage reported",
-    "damage_raw": "Damage \u2014 severity not shown on card, check report; 2,512 mi/yr; SEDAN",
+    "damage_raw": "Damage — severity not shown on card, check report; 2,512 mi/yr; SEDAN",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -20404,8 +20330,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 41.3,
-    "why": "Manual, 1 owner, 2012 (pre-2016), 37,674 miles. Unverified, card data only. Price $10,080 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Se. Damage \u2014 severity not shown on card, check report; 2,512 mi/yr; SEDAN.",
-    "notes": "Damage \u2014 severity not shown on card, check report; 2,512 mi/yr; SEDAN",
+    "why": "Manual, 1 owner, 2012 (pre-2016), 37,674 miles. Unverified, card data only. Price $10,080 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Se. Damage — severity not shown on card, check report; 2,512 mi/yr; SEDAN.",
+    "notes": "Damage — severity not shown on card, check report; 2,512 mi/yr; SEDAN",
     "mpg_text": "Sonata / Man 6-spd, 4 cyl, 2.4 L",
     "tire": {
      "size": "205/55R16",
@@ -20460,7 +20386,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 5,930 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 5,930 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -20482,8 +20408,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 38.0,
-    "why": "Manual, 1 owner, 2008 (pre-2016), 112,675 miles. Unverified, card data only. Price $10,900 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident \u2014 severity not shown on card, check report; 5,930 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 5,930 mi/yr",
+    "why": "Manual, 1 owner, 2008 (pre-2016), 112,675 miles. Unverified, card data only. Price $10,900 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident — severity not shown on card, check report; 5,930 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 5,930 mi/yr",
     "mpg_text": "Civic / Man 5-spd, 4 cyl, 1.8 L",
     "tire": {
      "size": "205/55R16",
@@ -20856,7 +20782,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 6,451 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 6,451 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -20878,8 +20804,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 27.9,
-    "why": "Manual, 1 owner, 2005 (pre-2016), 141,928 miles. Unverified, card data only. Price $10,998 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident \u2014 severity not shown on card, check report; 6,451 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 6,451 mi/yr",
+    "why": "Manual, 1 owner, 2005 (pre-2016), 141,928 miles. Unverified, card data only. Price $10,998 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident — severity not shown on card, check report; 6,451 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 6,451 mi/yr",
     "mpg_text": "Frontier 2WD / Man 5-spd, 4 cyl, 2.5 L",
     "tire": {
      "size": "205/55R16",
@@ -21174,7 +21100,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 12,948 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 12,948 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -21196,8 +21122,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 25.4,
-    "why": "Manual, 1 owner, 2013 (pre-2016), 181,267 miles. Unverified, card data only. Price $11,678 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Fa. Accident \u2014 severity not shown on card, check report; 12,948 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 12,948 mi/yr",
+    "why": "Manual, 1 owner, 2013 (pre-2016), 181,267 miles. Unverified, card data only. Price $11,678 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Fa. Accident — severity not shown on card, check report; 12,948 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 12,948 mi/yr",
     "mpg_text": "Golf R / Man 6-spd, 4 cyl, 2.0 L, Turbo",
     "tire": {
      "size": "205/55R16",
@@ -21410,7 +21336,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Damage reported",
-    "damage_raw": "Damage \u2014 severity not shown on card, check report; 4,724 mi/yr; SEDAN",
+    "damage_raw": "Damage — severity not shown on card, check report; 4,724 mi/yr; SEDAN",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -21432,8 +21358,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 33.5,
-    "why": "Manual, 1 owner, 2004 (pre-2016), 108,657 miles. Unverified, card data only. Price $11,500 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Se. Damage \u2014 severity not shown on card, check report; 4,724 mi/yr; SEDAN.",
-    "notes": "Damage \u2014 severity not shown on card, check report; 4,724 mi/yr; SEDAN",
+    "why": "Manual, 1 owner, 2004 (pre-2016), 108,657 miles. Unverified, card data only. Price $11,500 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Se. Damage — severity not shown on card, check report; 4,724 mi/yr; SEDAN.",
+    "notes": "Damage — severity not shown on card, check report; 4,724 mi/yr; SEDAN",
     "mpg_text": "Impreza AWD / Man 5-spd, 4 cyl, 2.0 L, Turbo",
     "tire": {
      "size": "205/55R16",
@@ -21568,7 +21494,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Damage reported",
-    "damage_raw": "? \u2014 severity not shown on card, check report; 1,708 mi/yr",
+    "damage_raw": "? — severity not shown on card, check report; 1,708 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -21590,8 +21516,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 40.5,
-    "why": "Manual, 1 owner, 2004 (pre-2016), 39,295 miles. Unverified, card data only. Price $12,990 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Fa. ? \u2014 severity not shown on card, check report; 1,708 mi/yr.",
-    "notes": "? \u2014 severity not shown on card, check report; 1,708 mi/yr",
+    "why": "Manual, 1 owner, 2004 (pre-2016), 39,295 miles. Unverified, card data only. Price $12,990 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Fa. ? — severity not shown on card, check report; 1,708 mi/yr.",
+    "notes": "? — severity not shown on card, check report; 1,708 mi/yr",
     "mpg_text": "Forester AWD / Man 5-spd, 4 cyl, 2.5 L",
     "tire": {
      "size": "205/55R16",
@@ -21724,7 +21650,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Accident reported",
-    "damage_raw": "Accident \u2014 severity not shown on card, check report; 3,427 mi/yr",
+    "damage_raw": "Accident — severity not shown on card, check report; 3,427 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -21746,8 +21672,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 33.7,
-    "why": "Manual, 1 owner, 2006 (pre-2016), 71,972 miles. Unverified, card data only. Price $12,251 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident \u2014 severity not shown on card, check report; 3,427 mi/yr.",
-    "notes": "Accident \u2014 severity not shown on card, check report; 3,427 mi/yr",
+    "why": "Manual, 1 owner, 2006 (pre-2016), 71,972 miles. Unverified, card data only. Price $12,251 is over the $10,000 budget (search cap was $13,000). Accident reported on record; severity not shown on the card, check the free CARFAX report. Accident — severity not shown on card, check report; 3,427 mi/yr.",
+    "notes": "Accident — severity not shown on card, check report; 3,427 mi/yr",
     "mpg_text": "RX-8 / Man 6-spd, 2 cyl, 1.3 L",
     "tire": {
      "size": "205/55R16",
@@ -21804,7 +21730,7 @@
     "trans": "Manual",
     "owners": "1",
     "damage": "Damage reported",
-    "damage_raw": "Damage \u2014 severity not shown on card, check report; 11,298 mi/yr",
+    "damage_raw": "Damage — severity not shown on card, check report; 11,298 mi/yr",
     "service": null,
     "seller": "Dealer",
     "dealer": "Dealer not shown",
@@ -21826,8 +21752,8 @@
     "interest": "unreviewed",
     "severity_unspecified": true,
     "score": 32.4,
-    "why": "Manual, 1 owner, 2014 (pre-2016), 146,880 miles. Unverified, card data only. Price $12,539 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Fa. Damage \u2014 severity not shown on card, check report; 11,298 mi/yr.",
-    "notes": "Damage \u2014 severity not shown on card, check report; 11,298 mi/yr",
+    "why": "Manual, 1 owner, 2014 (pre-2016), 146,880 miles. Unverified, card data only. Price $12,539 is over the $10,000 budget (search cap was $13,000). Damage reported on record; severity not shown on the card, check the free CARFAX report. Fa. Damage — severity not shown on card, check report; 11,298 mi/yr.",
+    "notes": "Damage — severity not shown on card, check report; 11,298 mi/yr",
     "mpg_text": "Wrangler 4WD / Man 6-spd, 6 cyl, 3.6 L",
     "tire": {
      "size": "205/55R16",
@@ -22034,5 +21960,85 @@
   ],
   "pre2016_count": 89,
   "newer_count": 29
- }
+ },
+ "removed": [
+  {
+   "rank": 13,
+   "tier": "Top pick",
+   "score": 92,
+   "vin": "JTDKB20U177674239",
+   "title": "2007 Toyota Prius",
+   "year": 2007,
+   "price": 6977,
+   "miles": 133296,
+   "trans": "Auto",
+   "owners": "1",
+   "damage": "None",
+   "service": 33,
+   "seller": "Dealer",
+   "dealer": "Gilroy Motorsports",
+   "address": "8405 Monterey St Ste B, Gilroy, CA 95020",
+   "city": "Gilroy",
+   "phone": "(866) 730-5348",
+   "use": "Personal",
+   "body": "Hatchback",
+   "drive": "4x2",
+   "lat": 37.0196001,
+   "lng": -121.5753949,
+   "driveMin": 58,
+   "driveMi": 47.0,
+   "img": "img/JTDKB20U177674239.jpg",
+   "photo": "https://carfax-img.vast.com/carfax/v2/7184608060431563154/1/640x480",
+   "url": "https://www.carfax.com/vehicle/JTDKB20U177674239",
+   "why": "Automatic, 1 owner, no damage, 33 service records. 2007 hybrid pack is past its typical 8-10 year life: get a battery health test.",
+   "tire": {
+    "size": "185/65R15",
+    "lo": 328,
+    "hi": 696,
+    "install": 196
+   },
+   "cost": {
+    "fuel_yr": 1222,
+    "insurance_yr": 729,
+    "tires_yr": 87,
+    "maint_yr": 408,
+    "reg_yr": 246,
+    "total_yr": 2692,
+    "upfront_cash": 8373,
+    "first_year_cash": 10845,
+    "three_year_total": 16229,
+    "mpg": 46,
+    "grade": "regular",
+    "four_year_total": 18921
+   },
+   "source": "Followed",
+   "deal": null,
+   "locNote": "",
+   "color": null,
+   "otd": 8013,
+   "trip": null,
+   "hybrid": {
+    "gen": "Prius Gen 2 (2004-2009)",
+    "pack": "NiMH",
+    "age_yr": 19,
+    "miles": 133296,
+    "risk": "Med",
+    "risk_p": 0.5,
+    "aftermarket_installed": 1700,
+    "reserve": 850,
+    "three_year_with_reserve": 17079,
+    "four_year_with_reserve": 19771,
+    "covered": false,
+    "warranty": "Not covered. Nationwide hybrid-battery coverage on pre-2020 Toyotas was 8 years or 100,000 miles. California-spec 2004-2017 Prius also had a 10 year/150,000 mile hybrid-battery term under the California emissions warranty, in California and some other states (Toyota T-SB-0074-20). On this 2007, both terms ended by 2017 or at 150,000 miles. Toyota's later 10 year/150,000 mile nationwide battery warranty applies to 2020 and newer hybrids only.",
+    "issues": "Inverter coolant pump (Gen 2 and Gen 3): a wear item, typically $300-$600 installed at a specialist (Belyer lists $300 for 2004-2015; Tucson Hybrids cites $300-$600). If the pump is ignored, inverter damage can run $2,500-$5,000.",
+    "health": "Get a Dr. Prius / Dr. Hybrid OBD test (block voltages and a capacity test) or a shop scan ($100-$200; this dashboard already includes a $135 Hybrid Battery Solutions deep scan in Prius upfront costs). Warning signs: falling mpg, a battery gauge that swings quickly, the engine running more often, a red triangle or Check Hybrid System light, or reduced power. A weak 12-volt battery can mimic a dead pack.",
+    "typical_life": "10-15 years or 150k-250k miles, typical, assuming the original pack is still in the car (service records on these listings are not complete enough to confirm a prior replacement).",
+    "verdict": "Still a top pick once the battery is counted. A $850 reserve raises the 3-year total from $16,229 to $17,079, which is within a few hundred dollars of the 2002 Corolla LE ($16,733) and still cheaper over 4 years. Get a Dr. Prius or shop pack test first; the warranty expired years ago."
+   },
+   "removed": {
+    "date": "2026-11-14",
+    "reason": "Removed from consideration by owner; Carfax reviewed (clean, 1 owner, original 2007 hybrid pack likely)."
+   }
+  }
+ ]
 }
